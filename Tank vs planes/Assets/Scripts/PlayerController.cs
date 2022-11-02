@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float Speed = 10f;
+    public float Speed = 0.001f;
     private void FixedUpdate()
     {
         Vector3 worldMousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector3 Cursor = new Vector3(worldMousePosition.x, worldMousePosition.y, 0f);
+        Vector3 EndPoint = new Vector3(worldMousePosition.x, transform.position.y, 0f);
 
-        transform.position = Vector3.Lerp(transform.position, Cursor, Time.deltaTime * Speed);
+        transform.position = Vector3.Lerp(transform.position, EndPoint, (Time.deltaTime * Speed)/4);
     }
 }
