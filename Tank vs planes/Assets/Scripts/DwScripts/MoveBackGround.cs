@@ -7,12 +7,14 @@ public class MoveBackGround : MonoBehaviour
     [SerializeField]
     float speed;
     private Transform back_Tranform;
-    private float back_Size;
-    private float back_pos;
+    private float back_Size_x;
+    private float back_pos_x;
+    private float start_pos_y;
     void Start()
     {
         back_Tranform = GetComponent<Transform>();
-        back_Size = GetComponent<SpriteRenderer>().bounds.size.x;
+        back_Size_x = GetComponent<SpriteRenderer>().bounds.size.x;
+        start_pos_y = GetComponent<SpriteRenderer>().transform.position.y;
     }
 
     // Update is called once per frame
@@ -23,8 +25,8 @@ public class MoveBackGround : MonoBehaviour
 
     public void Move()
     {
-        back_pos += speed * Time.deltaTime;
-        back_pos = Mathf.Repeat(back_pos, back_Size);
-        back_Tranform.position = new Vector3(back_pos, 0, 0);
+        back_pos_x += speed * Time.deltaTime;
+        back_pos_x = Mathf.Repeat(back_pos_x, back_Size_x);
+        back_Tranform.position = new Vector3(back_pos_x, start_pos_y, 0);
     }
 }
