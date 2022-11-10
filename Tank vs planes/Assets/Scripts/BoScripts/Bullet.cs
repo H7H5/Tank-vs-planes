@@ -5,11 +5,9 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     private float movementSpeed = 15.0f;
-    
-    void Start()
-    {
-        
-    }
+    public int damage = 50;
+    [SerializeField] SpriteRenderer spriteRenderer;
+    [SerializeField] private List<Sprite> spritesBullet = new List<Sprite>();
 
     void Update()
     {
@@ -22,5 +20,17 @@ public class Bullet : MonoBehaviour
             Destroy(gameObject);
         }
         
+    }
+    public void SetDamage(int level)
+    {
+        damage += (level * 10);
+        if (level < spritesBullet.Count)
+        {
+            spriteRenderer.sprite = spritesBullet[level];
+        }
+        else
+        {
+            spriteRenderer.sprite = spritesBullet[spritesBullet.Count-1];
+        }
     }
 }
