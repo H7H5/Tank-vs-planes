@@ -52,6 +52,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.GetComponent<Bonus>())
         {
             GetBonus(collision.gameObject.GetComponent<Bonus>().id);
+
         }
         Destroy(collision.gameObject);
     }
@@ -70,7 +71,7 @@ public class PlayerController : MonoBehaviour
                 Debug.Log(id);
                 break;
             case 3:
-                Debug.Log(id);
+                gun.GunPowerUP();
                 break;
             case 4:
                 Debug.Log(id);
