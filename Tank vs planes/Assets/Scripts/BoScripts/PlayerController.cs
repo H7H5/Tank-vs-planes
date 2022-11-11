@@ -4,47 +4,59 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float Speed = 0.001f;
+    private float maxSpeed = 0.3f;
+    private float speed = 0.1f;
     private Animator animator;
     [SerializeField] private Gun gun;
+    [SerializeField] private List<Sprite> spritesTank = new List<Sprite>();
+    [SerializeField] private SpriteRenderer spriteTank;
+    float positionTankX = 0;
+    int curentSprite = 0;
+    int stepidle = 0;
     private void Start()
     {
-        animator = GetComponent<Animator>();
+        //animator = GetComponent<Animator>();
     }
     private void FixedUpdate()
     {
         float StartX = transform.position.x;
         Vector3 worldMousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector3 EndPoint = new Vector3(worldMousePosition.x, transform.position.y, 0f);
-        transform.position = Vector3.Lerp(transform.position, EndPoint, (Time.deltaTime * Speed)/4);
-        SetAnimation(StartX, transform.position.x);
+        if (Vector3.Distance(transform.position, EndPoint) > 0.1f)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, EndPoint, speed);
+        }
+        SetAnimation();
     }
 
-    private void SetAnimation(float StartX, float EndX)
+    private void SetAnimation()
     {
-        float deltaX = Mathf.Abs(StartX - EndX);
-        if(StartX > EndX)
+        float deltaX = Mathf.Abs(positionTankX - transform.position.x);
+        stepidle++;
+        if (deltaX > 0.03f)
         {
-            if (deltaX < 0.01f)
+            if (positionTankX > transform.position.x)
             {
-                animator.SetInteger("direction", 0);
+                curentSprite--;
+                if (curentSprite < 0) curentSprite = spritesTank.Count - 1;
             }
             else
             {
-                animator.SetInteger("direction", -1);
+                curentSprite++;
+                if (curentSprite >spritesTank.Count-1) curentSprite = 0;
             }
         }
         else
         {
-            if (deltaX < 0.1f)
+            if(stepidle > 2)
             {
-                animator.SetInteger("direction", 0);
-            }
-            else
-            {
-                animator.SetInteger("direction", 1);
+                curentSprite++;
+                if (curentSprite > spritesTank.Count - 1) curentSprite = 0;
+                stepidle = 0;
             }
         }
+        spriteTank.sprite = spritesTank[curentSprite];
+        positionTankX = transform.position.x;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -68,13 +80,13 @@ public class PlayerController : MonoBehaviour
                 Debug.Log(id);
                 break;
             case 2:
-                Debug.Log(id);
+                SpeedBoost();
                 break;
             case 3:
                 gun.GunPowerUP();
                 break;
             case 4:
-                Debug.Log(id);
+                gun.RateOfFire();
                 break;
             case 5:
                 gun.NextSpriteGun();
@@ -98,5 +110,10 @@ public class PlayerController : MonoBehaviour
                 Debug.Log(id);
                 break;
         }
+    }
+    private void SpeedBoost()
+    {
+        speed += 0.01f;
+        if (speed >= maxSpeed) speed = maxSpeed;
     }
 }
