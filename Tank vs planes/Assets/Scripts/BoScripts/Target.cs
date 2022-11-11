@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Target : MonoBehaviour
 {
-    public float Speed = 10f;
+    public float Speed = 20f;
     private void FixedUpdate()
     {
         Vector3 worldMousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);

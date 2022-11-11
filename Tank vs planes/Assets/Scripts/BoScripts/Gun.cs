@@ -11,12 +11,14 @@ public class Gun : MonoBehaviour
     [SerializeField] private SpriteRenderer spriteGun;
     [SerializeField] Transform SpawnPoint;
     [SerializeField] GameObject bullet;
+    [SerializeField] GameObject muzzleflach;
     private int curentGun = 0;     //загружать из БД
     private int powerGun = 0;
 
 
+    private float minTimeRateFire = 0.05f;
     private float timeRtwShots;
-    public float startTimeRtwShots;
+    private float startTimeRtwShots = 0.25f;
     private void Awake()
     {
         spriteGun.sprite = spritesGun[curentGun];
@@ -27,12 +29,19 @@ public class Gun : MonoBehaviour
     void Update()
     {
         Vector3 diferense = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
-        float rotateZ = Mathf.Atan2(diferense.y, diferense.x) * Mathf.Rad2Deg;
+        float rotateZ;
         if (diferense.y > 0)
         {
-            transform.rotation = Quaternion.Euler(0f, 0f, rotateZ + offset);
+             rotateZ = Mathf.Atan2(diferense.y, diferense.x) * Mathf.Rad2Deg;
+          
         }
-        if(timeRtwShots <= 0)
+        else
+        {
+             rotateZ = Mathf.Atan2(0, diferense.x) * Mathf.Rad2Deg;
+           
+        }
+        transform.rotation = Quaternion.Euler(0f, 0f, rotateZ + offset);
+        if (timeRtwShots <= 0)
         {
             if (Input.GetMouseButton(0))
             {
@@ -91,8 +100,8 @@ public class Gun : MonoBehaviour
                 CreateBullet(-25f);
                 break;
         }
-       
-       
+        muzzleflach.SetActive(true);
+
     }
 
     private GameObject CreateBullet(float angle)
@@ -106,5 +115,11 @@ public class Gun : MonoBehaviour
     public void GunPowerUP()
     {
         powerGun += 1;
+    }
+
+    public void RateOfFire()
+    {
+        startTimeRtwShots -= 0.01f;
+        if (startTimeRtwShots <= minTimeRateFire) startTimeRtwShots = minTimeRateFire;
     }
 }
