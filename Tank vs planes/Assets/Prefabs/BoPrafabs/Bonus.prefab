@@ -125,5 +125,11 @@ MonoBehaviour:
   - {fileID: -2004970489635254543, guid: 8c850945473b0cd4caef45d4d27248ee, type: 3}
   - {fileID: 3366297153455892705, guid: 8c850945473b0cd4caef45d4d27248ee, type: 3}
   - {fileID: -8500697913295427518, guid: 8c850945473b0cd4caef45d4d27248ee, type: 3}
+  curentAudioclip: {fileID: 8300000, guid: 4cb960a6728bf4b43be3d1e584fe1caf, type: 3}
+  upgrade: {fileID: 8300000, guid: 4cb960a6728bf4b43be3d1e584fe1caf, type: 3}
+  speed_up: {fileID: 8300000, guid: d360d4ee26e90d1419702a5facfaac09, type: 3}
+  gun_power_up: {fileID: 8300000, guid: cd5e40c998781d64e9d5125b9bb5ee4d, type: 3}
+  power_up: {fileID: 8300000, guid: 5dbc3e47127d84d4db8bf48ae7c3aafa, type: 3}
+  shield_up: {fileID: 8300000, guid: 38b6d95dece16d043a574c6703d392f0, type: 3}
   sprite: {fileID: 5226984816723879465}
   id: 5

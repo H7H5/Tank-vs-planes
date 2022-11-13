@@ -1,0 +1,3769 @@
+fileFormatVersion: 2
+guid: 9f64346ed4192874fb55eea6f0e0d53d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1020865350258492032
+    second: mozaik_0
+  - first:
+      213: -1970894915308540781
+    second: mozaik_1
+  - first:
+      213: 484426300508178894
+    second: mozaik_2
+  - first:
+      213: -2840760289654282093
+    second: mozaik_3
+  - first:
+      213: -8125764558922731234
+    second: mozaik_4
+  - first:
+      213: -818288004580174207
+    second: mozaik_5
+  - first:
+      213: -3603001052714234424
+    second: mozaik_6
+  - first:
+      213: -2476860391854085948
+    second: mozaik_7
+  - first:
+      213: 2598775464152184651
+    second: mozaik_8
+  - first:
+      213: -7406396512448203886
+    second: mozaik_9
+  - first:
+      213: -5333636749107108309
+    second: mozaik_10
+  - first:
+      213: 6918490461409462006
+    second: mozaik_11
+  - first:
+      213: 2766367931304764522
+    second: mozaik_12
+  - first:
+      213: -4801735980131586207
+    second: mozaik_13
+  - first:
+      213: -8974026716059550145
+    second: mozaik_14
+  - first:
+      213: -7501357477685232436
+    second: mozaik_15
+  - first:
+      213: -2030118703048417072
+    second: mozaik_16
+  - first:
+      213: 3101941639303926575
+    second: mozaik_17
+  - first:
+      213: 5015219131502378075
+    second: mozaik_18
+  - first:
+      213: 2017858119074325188
+    second: mozaik_19
+  - first:
+      213: -5860649225697863950
+    second: mozaik_20
+  - first:
+      213: 5938483539643562769
+    second: mozaik_21
+  - first:
+      213: -4485219619127921430
+    second: mozaik_22
+  - first:
+      213: -3981066540331502555
+    second: mozaik_23
+  - first:
+      213: 2115240881991797994
+    second: mozaik_24
+  - first:
+      213: -4460434569446276887
+    second: mozaik_25
+  - first:
+      213: 8576673974080703469
+    second: mozaik_26
+  - first:
+      213: -6129370575332989934
+    second: mozaik_27
+  - first:
+      213: 2698672796137463037
+    second: mozaik_28
+  - first:
+      213: -8813776457952015936
+    second: mozaik_29
+  - first:
+      213: -4317293543681981588
+    second: mozaik_30
+  - first:
+      213: -8510286518067745267
+    second: mozaik_31
+  - first:
+      213: -9147744433857120968
+    second: mozaik_32
+  - first:
+      213: 8973290516929456891
+    second: mozaik_33
+  - first:
+      213: -4375191625736137297
+    second: mozaik_34
+  - first:
+      213: -6992561436993085600
+    second: mozaik_35
+  - first:
+      213: 1956396773896581044
+    second: mozaik_36
+  - first:
+      213: -5588869939967958713
+    second: mozaik_37
+  - first:
+      213: 7232494537143378626
+    second: mozaik_38
+  - first:
+      213: 9203683410229229566
+    second: mozaik_39
+  - first:
+      213: 2293043589455567181
+    second: mozaik_40
+  - first:
+      213: -322974502367322282
+    second: mozaik_41
+  - first:
+      213: -2562490517098548107
+    second: mozaik_42
+  - first:
+      213: -9069210361264368831
+    second: mozaik_43
+  - first:
+      213: 3267396763637425322
+    second: mozaik_44
+  - first:
+      213: 5000897208036773920
+    second: mozaik_45
+  - first:
+      213: 8699414800821256070
+    second: mozaik_46
+  - first:
+      213: -4445560455227864151
+    second: mozaik_47
+  - first:
+      213: -1820788966096329317
+    second: mozaik_48
+  - first:
+      213: -1353184446303151303
+    second: mozaik_49
+  - first:
+      213: -4620727494864527131
+    second: mozaik_50
+  - first:
+      213: -5073419690658395262
+    second: mozaik_51
+  - first:
+      213: 1181936112512816330
+    second: mozaik_52
+  - first:
+      213: 6768910004743799525
+    second: mozaik_53
+  - first:
+      213: 1443284029299191180
+    second: mozaik_54
+  - first:
+      213: 7178569067652762654
+    second: mozaik_55
+  - first:
+      213: -8513637490995448940
+    second: mozaik_56
+  - first:
+      213: -8495928774486933196
+    second: mozaik_57
+  - first:
+      213: -3051549926902650226
+    second: mozaik_58
+  - first:
+      213: 3973043475306333966
+    second: mozaik_59
+  - first:
+      213: 5165147665443814013
+    second: mozaik_60
+  - first:
+      213: -3746676565106221742
+    second: mozaik_61
+  - first:
+      213: 114896255835068779
+    second: mozaik_62
+  - first:
+      213: -4754792538260871120
+    second: mozaik_63
+  - first:
+      213: 5992891794823088770
+    second: mozaik_64
+  - first:
+      213: -544366494528270851
+    second: mozaik_65
+  - first:
+      213: 517536364208264570
+    second: mozaik_66
+  - first:
+      213: -7088939718013748063
+    second: mozaik_67
+  - first:
+      213: 7982430756220591474
+    second: mozaik_68
+  - first:
+      213: 6732639113223320749
+    second: mozaik_69
+  - first:
+      213: 3157634802511990264
+    second: mozaik_70
+  - first:
+      213: -3913142798088792929
+    second: mozaik_71
+  - first:
+      213: -4152566354901042867
+    second: mozaik_72
+  - first:
+      213: 2007441171747526700
+    second: mozaik_73
+  - first:
+      213: -3103017790905781636
+    second: mozaik_74
+  - first:
+      213: -6874826248167315868
+    second: mozaik_75
+  - first:
+      213: 6075194869846595792
+    second: mozaik_76
+  - first:
+      213: -1277316395729250585
+    second: mozaik_77
+  - first:
+      213: -7877694533059490394
+    second: mozaik_78
+  - first:
+      213: 3922112419708937459
+    second: mozaik_79
+  - first:
+      213: -7668590415601062765
+    second: mozaik_80
+  - first:
+      213: 2866707783334620179
+    second: mozaik_81
+  - first:
+      213: 7862199167105407222
+    second: mozaik_82
+  - first:
+      213: 3140992943440712196
+    second: mozaik_83
+  - first:
+      213: 4335900954738576721
+    second: mozaik_84
+  - first:
+      213: -6457752652431981801
+    second: mozaik_85
+  - first:
+      213: -4392977334082524860
+    second: mozaik_86
+  - first:
+      213: -1441726463255175936
+    second: mozaik_87
+  - first:
+      213: -7594733373239139085
+    second: mozaik_88
+  - first:
+      213: -2758963259270133962
+    second: mozaik_89
+  - first:
+      213: 5401955093347257554
+    second: mozaik_90
+  - first:
+      213: -5552776972944824491
+    second: mozaik_91
+  - first:
+      213: 367653136229359298
+    second: mozaik_92
+  - first:
+      213: -1506651207314730002
+    second: mozaik_93
+  - first:
+      213: -6936549309375111778
+    second: mozaik_94
+  - first:
+      213: -5845985337140441055
+    second: mozaik_95
+  - first:
+      213: 8213436078453478745
+    second: mozaik_96
+  - first:
+      213: 2916386016052788920
+    second: mozaik_97
+  - first:
+      213: -1507334688422944836
+    second: mozaik_98
+  - first:
+      213: -7026908743463062315
+    second: mozaik_99
+  - first:
+      213: 5891337395271809045
+    second: mozaik_100
+  - first:
+      213: -5686367378601503749
+    second: mozaik_101
+  - first:
+      213: 366158685540706744
+    second: mozaik_102
+  - first:
+      213: 1916622421036132390
+    second: mozaik_103
+  - first:
+      213: -1033679148933113216
+    second: mozaik_104
+  - first:
+      213: -439213152057013735
+    second: mozaik_105
+  - first:
+      213: -8701739408114587130
+    second: mozaik_106
+  - first:
+      213: -4627089430021283292
+    second: mozaik_107
+  - first:
+      213: 6894730933173290131
+    second: mozaik_108
+  - first:
+      213: -7864535410953437718
+    second: mozaik_109
+  - first:
+      213: -3767049554727370313
+    second: mozaik_110
+  - first:
+      213: -2346505094798763182
+    second: mozaik_111
+  - first:
+      213: 4141734794362396142
+    second: mozaik_112
+  - first:
+      213: 8852496663489761718
+    second: mozaik_113
+  - first:
+      213: -1620251911066631734
+    second: mozaik_114
+  - first:
+      213: 629749871175669476
+    second: mozaik_115
+  - first:
+      213: 5243620254135359347
+    second: mozaik_116
+  - first:
+      213: -5134392347946477688
+    second: mozaik_117
+  - first:
+      213: -6971261590829105769
+    second: mozaik_118
+  - first:
+      213: 2158957703873443922
+    second: mozaik_119
+  - first:
+      213: 5901316712741826452
+    second: mozaik_120
+  - first:
+      213: 8374390083781349871
+    second: mozaik_121
+  - first:
+      213: 244589687484678159
+    second: mozaik_122
+  - first:
+      213: 8404296609192749045
+    second: mozaik_123
+  - first:
+      213: -1020499951735905310
+    second: mozaik_124
+  - first:
+      213: 2050736131949988319
+    second: mozaik_125
+  - first:
+      213: 5684964762427539967
+    second: mozaik_126
+  - first:
+      213: -6703120933822425138
+    second: mozaik_127
+  - first:
+      213: 2847398412466376846
+    second: mozaik_128
+  - first:
+      213: 2295807050625005486
+    second: mozaik_129
+  - first:
+      213: -9029709513636222419
+    second: mozaik_130
+  - first:
+      213: -4359786256526827551
+    second: mozaik_131
+  - first:
+      213: 855330479338342829
+    second: mozaik_132
+  - first:
+      213: -7768237187997117369
+    second: mozaik_133
+  - first:
+      213: 4956171400953271347
+    second: mozaik_134
+  - first:
+      213: -2319484204187119394
+    second: mozaik_135
+  - first:
+      213: -357089815876848926
+    second: mozaik_136
+  - first:
+      213: -7944887968654137607
+    second: mozaik_137
+  - first:
+      213: -4985604054094219729
+    second: mozaik_138
+  - first:
+      213: -957610471596541185
+    second: mozaik_139
+  - first:
+      213: -7582532046483441779
+    second: mozaik_140
+  - first:
+      213: -4100205096741773774
+    second: mozaik_141
+  - first:
+      213: 7276412181931240307
+    second: mozaik_142
+  - first:
+      213: 7329197038070304311
+    second: mozaik_143
+  - first:
+      213: 7235216750777363142
+    second: mozaik_144
+  - first:
+      213: -7834700993921648823
+    second: mozaik_145
+  - first:
+      213: -7762379632922990813
+    second: mozaik_146
+  - first:
+      213: -3854554381503443520
+    second: mozaik_147
+  - first:
+      213: 8024479851865769836
+    second: mozaik_148
+  - first:
+      213: 5531406300708628375
+    second: mozaik_149
+  - first:
+      213: 2152174808979749010
+    second: mozaik_150
+  - first:
+      213: -161368639545278324
+    second: mozaik_151
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mozaik_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 474
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08289a590a7da2e00800000000000000
+      internalID: 1020865350258492032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 483
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c296b4489f5a4e0800000000000000
+      internalID: -1970894915308540781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 476
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec985a9572709b600800000000000000
+      internalID: 484426300508178894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_3
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 472
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398ee1b41979398d0800000000000000
+      internalID: -2840760289654282093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_4
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 474
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11b3f09f2c7b3f80800000000000000
+      internalID: -8125764558922731234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_5
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 474
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1861903356bd4a4f0800000000000000
+      internalID: -818288004580174207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_6
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 472
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd0c9fc1a19ffdc0800000000000000
+      internalID: -3603001052714234424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_7
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 472
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c86d49b89c60add0800000000000000
+      internalID: -2476860391854085948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_8
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 481
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47bac70484b01420800000000000000
+      internalID: 2598775464152184651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_9
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 476
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29335d9dc91373990800000000000000
+      internalID: -7406396512448203886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 394
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b266080b2ad1bf5b0800000000000000
+      internalID: -5333636749107108309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_11
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 432
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f64d3e3b6a630060800000000000000
+      internalID: 6918490461409462006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_12
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 432
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64e3770afc146620800000000000000
+      internalID: 2766367931304764522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_13
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 432
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f6b07119ecc5db0800000000000000
+      internalID: -4801735980131586207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_14
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 432
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3eb7688f3ad57380800000000000000
+      internalID: -8974026716059550145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 432
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cccf9513e13d5e790800000000000000
+      internalID: -7501357477685232436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_16
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 432
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d02cecabc193d3e0800000000000000
+      internalID: -2030118703048417072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_17
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 432
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2314b47c7f4c0b20800000000000000
+      internalID: 3101941639303926575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_18
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 432
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c31f37a33a99540800000000000000
+      internalID: 5015219131502378075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_19
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 432
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2209aa44fd00c10800000000000000
+      internalID: 2017858119074325188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_20
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 432
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f65c1d849acaaea0800000000000000
+      internalID: -5860649225697863950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_21
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 432
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b75fcd05bb96250800000000000000
+      internalID: 5938483539643562769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_22
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 430
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae47446258c41c1c0800000000000000
+      internalID: -4485219619127921430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_23
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 434
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524f85cf21960c8c0800000000000000
+      internalID: -3981066540331502555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_24
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 392
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec41890068da5d10800000000000000
+      internalID: 2115240881991797994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_25
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 390
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e04848346a5912c0800000000000000
+      internalID: -4460434569446276887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_26
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 388
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb0b6bc987760770800000000000000
+      internalID: 8576673974080703469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_27
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 390
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214ab80cfe910faa0800000000000000
+      internalID: -6129370575332989934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_28
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 390
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc98c22c9c937520800000000000000
+      internalID: 2698672796137463037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_29
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 390
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9c116420d2fa580800000000000000
+      internalID: -8813776457952015936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_30
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 390
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c638fb16564e514c0800000000000000
+      internalID: -4317293543681981588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_31
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 390
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ea6c1508365e980800000000000000
+      internalID: -8510286518067745267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_32
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 390
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835b3eb77eeac0180800000000000000
+      internalID: -9147744433857120968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_33
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 390
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa26ffbe28878c70800000000000000
+      internalID: 8973290516929456891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_34
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 390
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5dbbba5623843c0800000000000000
+      internalID: -4375191625736137297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_35
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 390
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f9ee5db6e65fe90800000000000000
+      internalID: -6992561436993085600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_36
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 390
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf63db1084862b10800000000000000
+      internalID: 1956396773896581044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_37
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 348
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741e95496685072b0800000000000000
+      internalID: -5588869939967958713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_38
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 348
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2626e467bfe5460800000000000000
+      internalID: 7232494537143378626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_39
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 348
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef77ed36c4d0abf70800000000000000
+      internalID: 9203683410229229566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_40
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 348
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d495cfbdef682df10800000000000000
+      internalID: 2293043589455567181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_41
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 348
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f13eab660948bf0800000000000000
+      internalID: -322974502367322282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_42
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 348
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574b80c8374307cd0800000000000000
+      internalID: -2562490517098548107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_43
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 348
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1439b872a31b32280800000000000000
+      internalID: -9069210361264368831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_44
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 347
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4aedc8b00285d20800000000000000
+      internalID: 3267396763637425322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_45
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 348
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020564bc381c66540800000000000000
+      internalID: 5000897208036773920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_46
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 348
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ff9bc7ba78ab870800000000000000
+      internalID: 8699414800821256070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_47
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 348
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab8e9ec1523e42c0800000000000000
+      internalID: -4445560455227864151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_48
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 348
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95a0e015124bb6e0800000000000000
+      internalID: -1820788966096329317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_49
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 348
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b54826ae5883de0800000000000000
+      internalID: -1353184446303151303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_50
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 348
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e028b833d0efdfb0800000000000000
+      internalID: -4620727494864527131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_51
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 306
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b85d5eba79799b0800000000000000
+      internalID: -5073419690658395262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_52
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 306
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac45885d1a4176010800000000000000
+      internalID: 1181936112512816330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_53
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 304
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2875d39cfffed50800000000000000
+      internalID: 6768910004743799525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_54
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 304
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d6f548d23970410800000000000000
+      internalID: 1443284029299191180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_55
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 304
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ccc0988866f9360800000000000000
+      internalID: 7178569067652762654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_56
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 312
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493b4c22fcb79d980800000000000000
+      internalID: -8513637490995448940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_57
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 306
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431cfaffac5681a80800000000000000
+      internalID: -8495928774486933196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_58
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 306
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a29906287b6a5d0800000000000000
+      internalID: -3051549926902650226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_59
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 306
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0741de9df5132730800000000000000
+      internalID: 3973043475306333966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_60
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 306
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a77338f6a4ea740800000000000000
+      internalID: 5165147665443814013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_61
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 306
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d1098c381210cc0800000000000000
+      internalID: -3746676565106221742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_62
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 306
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6952133981389100800000000000000
+      internalID: 114896255835068779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_63
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 260
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0386840e065930eb0800000000000000
+      internalID: -4754792538260871120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_64
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 264
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a88cfe5570b2350800000000000000
+      internalID: 5992891794823088770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_65
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 264
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd8402be850278f0800000000000000
+      internalID: -544366494528270851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_66
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 260
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a751bfac498ae2700800000000000000
+      internalID: 517536364208264570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_67
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 264
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acf1a1a2e60f9d90800000000000000
+      internalID: -7088939718013748063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_68
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 264
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d5ea4ea7a47ce60800000000000000
+      internalID: 7982430756220591474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_69
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 264
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4b3983a932f6d50800000000000000
+      internalID: 6732639113223320749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_70
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 264
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd432e7f1c22db20800000000000000
+      internalID: 3157634802511990264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_71
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 264
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f941a8c9b59b1b9c0800000000000000
+      internalID: -3913142798088792929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_72
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 260
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4972e5c6ee1f56c0800000000000000
+      internalID: -4152566354901042867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_73
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 260
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28518d1c1ddbdb10800000000000000
+      internalID: 2007441171747526700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_74
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 264
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72f75972cddfe4d0800000000000000
+      internalID: -3103017790905781636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_75
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 264
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466a471a3f5b790a0800000000000000
+      internalID: -6874826248167315868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_76
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 264
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d85b7edb8d6f4450800000000000000
+      internalID: 6075194869846595792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_77
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 222
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e696ce618f064ee0800000000000000
+      internalID: -1277316395729250585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_78
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 222
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adc3fb5f8ecca290800000000000000
+      internalID: -7877694533059490394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_79
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 222
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f426e927742e6630800000000000000
+      internalID: 3922112419708937459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_80
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 222
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c222e95a1b39590800000000000000
+      internalID: -7668590415601062765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_81
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 218
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ce18c5a8798c720800000000000000
+      internalID: 2866707783334620179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_82
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 222
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f890bc9c742c1d60800000000000000
+      internalID: 7862199167105407222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_83
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 220
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402dacbb07c079b20800000000000000
+      internalID: 3140992943440712196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_84
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 219
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d487c12f63c2c30800000000000000
+      internalID: 4335900954738576721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_85
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 220
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71384706d247166a0800000000000000
+      internalID: -6457752652431981801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_86
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 222
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4492bafb3620903c0800000000000000
+      internalID: -4392977334082524860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_87
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 222
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d15669b65fdfbe0800000000000000
+      internalID: -1441726463255175936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_88
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 222
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4e6445c361a9690800000000000000
+      internalID: -7594733373239139085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_89
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 222
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63789d6888136b9d0800000000000000
+      internalID: -2758963259270133962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_90
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 220
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc439f598997fa40800000000000000
+      internalID: 5401955093347257554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_91
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 180
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557a7a253c290f2b0800000000000000
+      internalID: -5552776972944824491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_92
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 180
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce5289549a2a1500800000000000000
+      internalID: 367653136229359298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_93
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 180
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee39793a5bc471be0800000000000000
+      internalID: -1506651207314730002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_94
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 180
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d17bf872d6cbf90800000000000000
+      internalID: -6936549309375111778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_95
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 180
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1201a992f43eedea0800000000000000
+      internalID: -5845985337140441055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_96
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 180
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955d891c89cfbf170800000000000000
+      internalID: 8213436078453478745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_97
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 180
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be3eb241a5197820800000000000000
+      internalID: 2916386016052788920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_98
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 180
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf1dea461fd41be0800000000000000
+      internalID: -1507334688422944836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_99
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 180
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d43ccc5ab76b7e90800000000000000
+      internalID: -7026908743463062315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_100
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 180
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518b629b52c32c150800000000000000
+      internalID: 5891337395271809045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_101
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 180
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf396103ff6f511b0800000000000000
+      internalID: -5686367378601503749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_102
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 180
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9e31f626bd41500800000000000000
+      internalID: 366158685540706744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_103
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 180
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628686eefe5399a10800000000000000
+      internalID: 1916622421036132390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_104
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 180
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a1d1c6a42a7a1f0800000000000000
+      internalID: -1033679148933113216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_105
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 138
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a46fa17f997e9f0800000000000000
+      internalID: -439213152057013735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_106
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 138
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60aef43bc163d3780800000000000000
+      internalID: -8701739408114587130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_107
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 138
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422ed93cda649cfb0800000000000000
+      internalID: -4627089430021283292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_108
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 136
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39401bdf0410faf50800000000000000
+      internalID: 6894730933173290131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_109
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 138
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aedb3aa36be8bd290800000000000000
+      internalID: -7864535410953437718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_110
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 138
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b18e2f7360c8bbc0800000000000000
+      internalID: -3767049554727370313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_111
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 136
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b10e07c0a8f6fd0800000000000000
+      internalID: -2346505094798763182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_112
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 138
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed98d30ad56a7930800000000000000
+      internalID: 4141734794362396142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_113
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 138
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b153aa10d26ada70800000000000000
+      internalID: 8852496663489761718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_114
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 136
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1c93aa875b389e0800000000000000
+      internalID: -1620251911066631734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_115
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 138
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e616c8db225db800800000000000000
+      internalID: 629749871175669476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_116
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 136
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37718c8d6d415c840800000000000000
+      internalID: 5243620254135359347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_117
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 138
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8879a2bdc59feb8b0800000000000000
+      internalID: -5134392347946477688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_118
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 138
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d7e4ab48a114f90800000000000000
+      internalID: -6971261590829105769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_119
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2583870d79826fd10800000000000000
+      internalID: 2158957703873443922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_120
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 96
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f6d02a840b5e150800000000000000
+      internalID: 5901316712741826452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_121
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 96
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1575a696fc73470800000000000000
+      internalID: 8374390083781349871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_122
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 92
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f008f3e5605f46300800000000000000
+      internalID: 244589687484678159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_123
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 96
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f724f9fc3f02a470800000000000000
+      internalID: 8404296609192749045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_124
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e36a7363b476d1f0800000000000000
+      internalID: -1020499951735905310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_125
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 96
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd900f095ada57c10800000000000000
+      internalID: 2050736131949988319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_126
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 96
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff14b19c45d05ee40800000000000000
+      internalID: 5684964762427539967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_127
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7970d760bb9f2a0800000000000000
+      internalID: -6703120933822425138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_128
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 96
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80d11d15cdf38720800000000000000
+      internalID: 2847398412466376846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_129
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 96
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7375d49585cdf10800000000000000
+      internalID: 2295807050625005486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_130
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 96
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a6fbee90700b280800000000000000
+      internalID: -9029709513636222419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_131
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 96
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef9613bf7dee73c0800000000000000
+      internalID: -4359786256526827551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_132
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 96
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9c68a0a8ebedb00800000000000000
+      internalID: 855330479338342829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_133
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 54
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744d3767f6da13490800000000000000
+      internalID: -7768237187997117369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_134
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 50
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33415c751abd7c440800000000000000
+      internalID: 4956171400953271347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_135
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 54
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed01c4bc7698fcfd0800000000000000
+      internalID: -2319484204187119394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_136
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 54
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e230c354bc5b0bf0800000000000000
+      internalID: -357089815876848926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_137
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 50
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f668108c761eb190800000000000000
+      internalID: -7944887968654137607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_138
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 50
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2677f417839fcab0800000000000000
+      internalID: -4985604054094219729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_139
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 54
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa3b478952e5b2f0800000000000000
+      internalID: -957610471596541185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_140
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 52
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87b657174f65c690800000000000000
+      internalID: -7582532046483441779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_141
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 54
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ed57630352917c0800000000000000
+      internalID: -4100205096741773774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_142
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 54
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b265fc3520bf460800000000000000
+      internalID: 7276412181931240307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_143
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 52
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e8607dfd986b560800000000000000
+      internalID: 7329197038070304311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_144
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 54
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca6a0f0d47a86460800000000000000
+      internalID: 7235216750777363142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_145
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 54
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94776efb4fc854390800000000000000
+      internalID: -7834700993921648823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_146
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 54
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327e5e7c9dc764490800000000000000
+      internalID: -7762379632922990813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_147
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 54
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cdcf0b563fd18ac0800000000000000
+      internalID: -3854554381503443520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_148
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 12
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c670db5e8edac5f60800000000000000
+      internalID: 8024479851865769836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_149
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 12
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797681e49b083cc40800000000000000
+      internalID: 5531406300708628375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_150
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 12
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29838c7069f0edd10800000000000000
+      internalID: 2152174808979749010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mozaik_151
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 430
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80040ac314b2cdf0800000000000000
+      internalID: -161368639545278324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

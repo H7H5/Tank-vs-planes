@@ -10,12 +10,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Gun gun;
     [SerializeField] private List<Sprite> spritesTank = new List<Sprite>();
     [SerializeField] private SpriteRenderer spriteTank;
+    [SerializeField] AudioSource audioSource;
     float positionTankX = 0;
     int curentSprite = 0;
     int stepidle = 0;
     private void Start()
     {
-        //animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
     private void FixedUpdate()
     {
@@ -64,9 +65,14 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.GetComponent<Bonus>())
         {
             GetBonus(collision.gameObject.GetComponent<Bonus>().id);
+            PlayAudio(collision.gameObject.GetComponent<Bonus>().curentAudioclip);
 
         }
         Destroy(collision.gameObject);
+    }
+    private void PlayAudio(AudioClip audioClip)
+    {
+        audioSource.PlayOneShot(audioClip);
     }
 
     private void GetBonus(int id)
