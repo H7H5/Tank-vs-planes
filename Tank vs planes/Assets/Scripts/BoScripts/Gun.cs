@@ -8,20 +8,23 @@ public class Gun : MonoBehaviour
     private float offset = -90;
     private int LevelCountBulet = 1; //загружать из БД
     [SerializeField] private List<Sprite> spritesGun = new List<Sprite>();
+    [SerializeField] private List<AudioClip> audioClips = new List<AudioClip>();
     [SerializeField] private SpriteRenderer spriteGun;
     [SerializeField] Transform SpawnPoint;
     [SerializeField] GameObject bullet;
     [SerializeField] GameObject muzzleflach;
+    [SerializeField] AudioSource audioSource;
     private int curentGun = 0;     //загружать из БД
     private int powerGun = 0;
 
 
     private float minTimeRateFire = 0.05f;
     private float timeRtwShots;
-    private float startTimeRtwShots = 0.25f;
+    private float startTimeRtwShots = 0.2f;
     private void Awake()
     {
         spriteGun.sprite = spritesGun[curentGun];
+        audioSource = GetComponent<AudioSource>();
     }
 
 
@@ -101,6 +104,7 @@ public class Gun : MonoBehaviour
                 break;
         }
         muzzleflach.SetActive(true);
+        PlayAudio();
 
     }
 
@@ -121,5 +125,14 @@ public class Gun : MonoBehaviour
     {
         startTimeRtwShots -= 0.01f;
         if (startTimeRtwShots <= minTimeRateFire) startTimeRtwShots = minTimeRateFire;
+    }
+    private void PlayAudio()
+    {
+        int numberAudio = powerGun;
+        if(powerGun > audioClips.Count-1)
+        {
+            numberAudio = audioClips.Count - 1;
+        }
+        audioSource.PlayOneShot(audioClips[numberAudio]);
     }
 }
