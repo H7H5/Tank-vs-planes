@@ -116,6 +116,7 @@ public class PlayerController : MonoBehaviour
                 Debug.Log(id);
                 break;
         }
+        CreateWords.Instance.CreateWord(id);
     }
     private void SpeedBoost()
     {
