@@ -1135,6 +1135,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!1 &866481498
 GameObject:
   m_ObjectHideFlags: 0
@@ -1184,6 +1185,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of ffe8c80 (Words bonus)
 --- !u!1 &890566439
 GameObject:
   m_ObjectHideFlags: 0
