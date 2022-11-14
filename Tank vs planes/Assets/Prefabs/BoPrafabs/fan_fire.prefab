@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6267482024039495938}
   - component: {fileID: 6827536536275345296}
   m_Layer: 0
-  m_Name: fan fire
+  m_Name: fan_fire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
