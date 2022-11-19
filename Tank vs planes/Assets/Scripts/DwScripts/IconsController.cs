@@ -6,6 +6,9 @@ public class IconsController : MonoBehaviour
 {
     public static IconsController Instance;
     public NuclearCount NuclearCount;
+    public IconsHelper iconsMegaLaser;
+
+    public GameObject MegaLaserAction;
 
     private void Awake()
     {
@@ -20,8 +23,18 @@ public class IconsController : MonoBehaviour
         NuclearCount.NuclearIconsIncreaseCount();
     }
 
-    public void TestIconsController()
+    public void MegaLaserCountIncrease()
     {
-        Debug.Log("TestIconsController()");
+        iconsMegaLaser.CountIncreaseIcons();
+    }
+
+    public void MegaLaserCountDecrease()
+    {
+        iconsMegaLaser.CountDecreaseIcons();
+        iconsMegaLaser.CountDecreaseIcons();
+        iconsMegaLaser.CountDecreaseIcons();
+        iconsMegaLaser.CountDecreaseIcons();
+
+        MegaLaserAction.SetActive(true);
     }
 }
