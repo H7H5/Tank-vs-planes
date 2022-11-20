@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     private float speed = 0.1f;
     private Animator animator;
     [SerializeField] private Gun gun;
+    [SerializeField] private Homing homing;
     [SerializeField] private List<Sprite> spritesTank = new List<Sprite>();
     [SerializeField] private SpriteRenderer spriteTank;
     [SerializeField] AudioSource audioSource;
@@ -101,7 +102,7 @@ public class PlayerController : MonoBehaviour
                 Debug.Log(id);
                 break;
             case 7:
-                Debug.Log(id);
+                homing.UpdeteHoming();
                 break;
             case 8:
                 Debug.Log(id);
@@ -116,6 +117,7 @@ public class PlayerController : MonoBehaviour
                 Debug.Log(id);
                 break;
         }
+        CreateWords.Instance.CreateWord(id);
     }
     private void SpeedBoost()
     {
