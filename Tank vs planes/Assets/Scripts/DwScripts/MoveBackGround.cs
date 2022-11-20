@@ -6,6 +6,7 @@ public class MoveBackGround : MonoBehaviour
 {
     [SerializeField]
     float speed;
+    private float keepSpeed;
     private Transform back_Tranform;
     private float back_Size_x;
     private float back_pos_x;
@@ -21,6 +22,23 @@ public class MoveBackGround : MonoBehaviour
     void Update()
     {
         Move();
+    }
+
+    public void StopMoveBackGround()
+    {
+        if(speed != 0)
+        {
+            keepSpeed = speed;
+        }
+        speed = 0;
+    }
+
+    public void StartMoveBackGround()
+    {
+        if(speed == 0)
+        {
+            speed = keepSpeed;
+        }
     }
 
     public void Move()
