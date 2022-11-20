@@ -8,6 +8,7 @@ public class NuclearCount : MonoBehaviour
 
     public List<GameObject> imagesNuclearIcons;
     public int countActivNuclearIcons;
+    public GameObject nuclearBG;
 
     void Start()
     {
@@ -32,12 +33,29 @@ public class NuclearCount : MonoBehaviour
         }
     }
 
+    public void NuclearIconsIncreaseCount()
+    {
+        if(countActivNuclearIcons < imagesNuclearIcons.Count)
+        {
+            countActivNuclearIcons++;
+
+            for (int i = 0; i < countActivNuclearIcons; i++)
+            {
+                imagesNuclearIcons[i].SetActive(true);
+            }
+        }
+    }
+
     public void NuclearIconsDecreaseCount()
     {
         CountActivNuclearIcon();
 
-        if(countActivNuclearIcons > 0)
+        if (countActivNuclearIcons > 0)
         {
+            Instantiate(nuclearBG, new Vector2(0, 0), Quaternion.identity);
+
+            countActivNuclearIcons--;
+
             for (int i = imagesNuclearIcons.Count; i > 0; i--)
             {
                 if (imagesNuclearIcons[i - 1].activeInHierarchy)
