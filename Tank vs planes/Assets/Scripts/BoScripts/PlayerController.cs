@@ -81,7 +81,7 @@ public class PlayerController : MonoBehaviour
         switch (id)
         {
             case 0:
-                Debug.Log(id);
+                IconsController.Instance.NuclearCountIncrease();
                 break;
             case 1:
                 Debug.Log(id);
