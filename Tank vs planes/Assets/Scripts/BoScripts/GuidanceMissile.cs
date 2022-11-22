@@ -18,7 +18,8 @@ public class GuidanceMissile : MonoBehaviour
         Vector3 diferense = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
         float rotateZ;
         rotateZ = Mathf.Atan2(diferense.y, diferense.x) * Mathf.Rad2Deg;
-        SelectImage(rotateZ);
+        transform.rotation = Quaternion.Euler(0f, 0f, rotateZ + offset);
+        //SelectImage(rotateZ);
 
     }
     private void SelectImage(float rotateZ)
