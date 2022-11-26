@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
     [SerializeField] private Gun gun;
     [SerializeField] private Homing homing;
+    [SerializeField] private RocketPlace rocketPlace;
     [SerializeField] private List<Sprite> spritesTank = new List<Sprite>();
     [SerializeField] private SpriteRenderer spriteTank;
     [SerializeField] AudioSource audioSource;
@@ -108,7 +109,7 @@ public class PlayerController : MonoBehaviour
                 Debug.Log(id);
                 break;
             case 9:
-                Debug.Log(id);
+                rocketPlace.UpdeteRocket();
                 break;
             case 10:
                 Debug.Log(id);
