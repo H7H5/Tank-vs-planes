@@ -64,12 +64,9 @@ public class GuidanceMissile : MonoBehaviour
     }
     private void FindTarget()
     {
-        try{
-            target = EnemyPool.Instance.GetEnemy();
-        }
-        catch (Exception e)
+        if (EnemyPool.Instance != null)
         {
-
+            target = EnemyPool.Instance.GetEnemy();
         }
     }
 }

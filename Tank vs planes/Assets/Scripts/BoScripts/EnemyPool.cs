@@ -31,4 +31,15 @@ public class EnemyPool : MonoBehaviour
             return null;
         }
     }
+    public bool IsEnemy()
+    {
+        if (enemies.Count > 0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 }
