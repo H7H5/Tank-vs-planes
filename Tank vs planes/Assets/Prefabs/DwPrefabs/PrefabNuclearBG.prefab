@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3476610096362655953}
   - component: {fileID: 3476610096362655952}
   - component: {fileID: 3476610096362655955}
-  - component: {fileID: -4809221123152489077}
   m_Layer: 0
   m_Name: PrefabNuclearBG
   m_TagString: Untagged
@@ -117,19 +116,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee5fcf8869db54e479e4b441d1085422, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-4809221123152489077
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3476610096362655956}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d92528a9de3a7a1458494fc8e9198c8f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -1
 --- !u!1 &7306517401316430101
 GameObject:
   m_ObjectHideFlags: 0

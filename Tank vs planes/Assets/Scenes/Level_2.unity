@@ -328,6 +328,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -1
+  moveBackGround: {fileID: 1908158525}
 --- !u!1 &152061244
 GameObject:
   m_ObjectHideFlags: 0

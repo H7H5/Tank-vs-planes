@@ -8,8 +8,6 @@ public class IconsController : MonoBehaviour
     public NuclearCount NuclearCount;
     public IconsHelper iconsMegaLaser;
 
-    //public GameObject MegaLaserAction;
-
     private void Awake()
     {
         if (Instance == null)

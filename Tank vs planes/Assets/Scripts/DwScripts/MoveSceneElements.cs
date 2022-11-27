@@ -25,7 +25,6 @@ public class MoveSceneElements : MonoBehaviour
         pos_y = GetComponent<SpriteRenderer>().transform.position.y;
     }
 
-    // Update is called once per frame
     void Update()
     {
         Move();
