@@ -6,17 +6,22 @@ using UnityEngine.Events;
 
 public class NuclearEventManager : MonoBehaviour
 {
-    //public static event Action OnNuclearExplosion;
-
     public static UnityEvent OnNuclearExplosion = new UnityEvent();
+    public static UnityEvent OnStopMoveEnvironment = new UnityEvent();
+    public static UnityEvent OnStartMoveEnvironment = new UnityEvent();
 
     public static void SendNuclearExplosion()
     {
-        //if (OnNuclearExplosion != null)
-        //{
-        //    OnNuclearExplosion.Invoke();
-        //}
-
         OnNuclearExplosion.Invoke();
+    }
+
+    public static void SendStopMoveEnvironment()
+    {
+        OnStopMoveEnvironment.Invoke();
+    }
+
+    public static void SendStartMoveEnvironment()
+    {
+        OnStartMoveEnvironment.Invoke();
     }
 }

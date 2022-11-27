@@ -8,7 +8,7 @@ public class IconsController : MonoBehaviour
     public NuclearCount NuclearCount;
     public IconsHelper iconsMegaLaser;
 
-    public GameObject MegaLaserAction;
+    //public GameObject MegaLaserAction;
 
     private void Awake()
     {
@@ -30,18 +30,24 @@ public class IconsController : MonoBehaviour
         NuclearEventManager.SendNuclearExplosion();
     }
 
+
+    public void StopMoveEnvironment()
+    {
+        NuclearEventManager.SendStopMoveEnvironment();
+    }
+
+    public void StartMoveEnvironment()
+    {
+        NuclearEventManager.SendStartMoveEnvironment();
+    }
+
     public void MegaLaserCountIncrease()
     {
         iconsMegaLaser.CountIncreaseIcons();
     }
 
-    public void MegaLaserCountDecrease()
+    public void MegaLaserActivate()
     {
-        iconsMegaLaser.CountDecreaseIcons();
-        iconsMegaLaser.CountDecreaseIcons();
-        iconsMegaLaser.CountDecreaseIcons();
-        iconsMegaLaser.CountDecreaseIcons();
-
-        MegaLaserAction.SetActive(true);
+        iconsMegaLaser.MegaLaserActivate();
     }
 }

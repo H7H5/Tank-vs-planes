@@ -6,6 +6,9 @@ public class IconsHelper : MonoBehaviour
 {
     public List<GameObject> imagesIcons;
     public int countActivIcons;
+    public int maxCountActivIcons = 4;
+
+    public GameObject MegaLaserAction;
 
     private void Start()
     {
@@ -16,9 +19,9 @@ public class IconsHelper : MonoBehaviour
     {
         countActivIcons = 0;
 
-        foreach (GameObject nuclearIcon in imagesIcons)
+        foreach (GameObject icon in imagesIcons)
         {
-            if (nuclearIcon.activeInHierarchy)
+            if (icon.activeInHierarchy)
             {
                 countActivIcons++;
             }
@@ -35,6 +38,11 @@ public class IconsHelper : MonoBehaviour
             {
                 imagesIcons[i].SetActive(true);
             }
+        }
+
+        if(countActivIcons == maxCountActivIcons)
+        {
+            MegaLaserActivate();
         }
     }
 
@@ -53,5 +61,17 @@ public class IconsHelper : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void MegaLaserActivate()
+    {
+        countActivIcons = 0;
+
+        foreach (GameObject icon in imagesIcons)
+        {
+            icon.SetActive(false);
+        }
+
+        MegaLaserAction.SetActive(true);
     }
 }

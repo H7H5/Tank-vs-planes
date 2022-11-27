@@ -10,16 +10,6 @@ public class NuclearCount : MonoBehaviour
     public int countActivNuclearIcons;
     public GameObject nuclearBG;
 
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
-
     public void CountActivNuclearIcon()
     {
         countActivNuclearIcons = 0;
