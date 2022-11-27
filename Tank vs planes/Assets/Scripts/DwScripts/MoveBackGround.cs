@@ -13,12 +13,14 @@ public class MoveBackGround : MonoBehaviour
     private float start_pos_y;
     void Start()
     {
+        NuclearEventManager.OnStopMoveEnvironment.AddListener(StopMoveBackGround);
+        NuclearEventManager.OnStartMoveEnvironment.AddListener(StartMoveBackGround);
+
         back_Tranform = GetComponent<Transform>();
         back_Size_x = GetComponent<SpriteRenderer>().bounds.size.x;
         start_pos_y = GetComponent<SpriteRenderer>().transform.position.y;
     }
 
-    // Update is called once per frame
     void Update()
     {
         Move();
