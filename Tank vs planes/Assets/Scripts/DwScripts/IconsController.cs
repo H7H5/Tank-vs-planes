@@ -30,6 +30,7 @@ public class IconsController : MonoBehaviour
         NuclearEventManager.SendNuclearExplosion();
     }
 
+
     public void StopMoveEnvironment()
     {
         NuclearEventManager.SendStopMoveEnvironment();
@@ -44,19 +45,6 @@ public class IconsController : MonoBehaviour
     {
         iconsMegaLaser.CountIncreaseIcons();
     }
-
-    //public void MegaLaserCountDecrease()
-    //{
-    //    if(iconsMegaLaser.countActivIcons == iconsMegaLaser.maxCountActivIcons)
-    //    {
-    //        iconsMegaLaser.CountDecreaseIcons();
-    //        iconsMegaLaser.CountDecreaseIcons();
-    //        iconsMegaLaser.CountDecreaseIcons();
-    //        iconsMegaLaser.CountDecreaseIcons();
-    //
-    //        MegaLaserAction.SetActive(true);
-    //    }
-    //}
 
     public void MegaLaserActivate()
     {
