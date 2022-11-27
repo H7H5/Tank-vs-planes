@@ -2,20 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Homing : MonoBehaviour
+public class Rocketpod : MonoBehaviour
 {
-    [SerializeField] private List<Sprite> spritesHoming = new List<Sprite>();
-    [SerializeField] private SpriteRenderer spriteRenderer;
-    private int level = 0;
+    private int level = 1;
 
-    private float[] cooldown = { 0.5f, 0.4f, 0.25f };
+    private float[] cooldown = { 0.4f, 0.3f, 0.2f };
     [SerializeField] GameObject bullet;
+    [SerializeField] GameObject SpawnPoint;
 
     private float timeRtwShots;
     public float startTimeRtwShots = 0;
     void Start()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
     }
     void Update()
     {
@@ -40,14 +38,11 @@ public class Homing : MonoBehaviour
         {
             level = 3;
         }
-        spriteRenderer.sprite = spritesHoming[level-1];
         startTimeRtwShots = cooldown[level-1];
     }
-    private void Shot()
+    private GameObject Shot()
     {
-        GameObject shot = Instantiate(bullet, transform.position, Quaternion.identity);
-        //shot.transform.Rotate(SpawnPoint.transform.rotation.x, SpawnPoint.transform.rotation.y, SpawnPoint.transform.rotation.z);
-
+        GameObject shot = Instantiate(bullet, SpawnPoint.transform.position, SpawnPoint.transform.rotation);
+        return shot;
     }
-
- }
+}
