@@ -28,6 +28,7 @@ public class IconsController : MonoBehaviour
         NuclearEventManager.SendNuclearExplosion();
     }
 
+
     public void StopMoveEnvironment()
     {
         NuclearEventManager.SendStopMoveEnvironment();
