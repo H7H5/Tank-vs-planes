@@ -8,8 +8,6 @@ public class IconsController : MonoBehaviour
     public NuclearCount NuclearCount;
     public IconsHelper iconsMegaLaser;
 
-    //public GameObject MegaLaserAction;
-
     private void Awake()
     {
         if (Instance == null)
@@ -44,19 +42,6 @@ public class IconsController : MonoBehaviour
     {
         iconsMegaLaser.CountIncreaseIcons();
     }
-
-    //public void MegaLaserCountDecrease()
-    //{
-    //    if(iconsMegaLaser.countActivIcons == iconsMegaLaser.maxCountActivIcons)
-    //    {
-    //        iconsMegaLaser.CountDecreaseIcons();
-    //        iconsMegaLaser.CountDecreaseIcons();
-    //        iconsMegaLaser.CountDecreaseIcons();
-    //        iconsMegaLaser.CountDecreaseIcons();
-    //
-    //        MegaLaserAction.SetActive(true);
-    //    }
-    //}
 
     public void MegaLaserActivate()
     {

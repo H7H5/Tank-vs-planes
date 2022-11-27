@@ -26,6 +26,11 @@ public class MoveBackGround : MonoBehaviour
         Move();
     }
 
+    public float GetSpeedBackGround()
+    {
+        return speed;
+    }
+
     public void StopMoveBackGround()
     {
         if(speed != 0)
