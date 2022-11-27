@@ -6,13 +6,11 @@ public class MoveSceneElements : MonoBehaviour
 {
     [SerializeField]
     float speed;
-    private Transform transform;
     private float pos_x;
     private float pos_y;
     private float pos_x_destroy = - 20f;
     void Start()
     {
-        transform = GetComponent<Transform>();
         pos_x = GetComponent<SpriteRenderer>().transform.position.x;
         pos_y = GetComponent<SpriteRenderer>().transform.position.y;
     }
