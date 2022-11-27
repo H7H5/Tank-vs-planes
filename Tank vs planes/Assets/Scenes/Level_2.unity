@@ -2288,7 +2288,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &801471205
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4292,6 +4292,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1426396922}
+  - component: {fileID: 1426396923}
   m_Layer: 5
   m_Name: SceneElements
   m_TagString: Untagged
@@ -4319,6 +4320,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1426396923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426396921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ccf5f283c4323243945b5641633d176, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabLightHouse: {fileID: 4093537650065586740, guid: e41740e96a1220b42a4b8132a7021d52, type: 3}
 --- !u!1 &1449438567
 GameObject:
   m_ObjectHideFlags: 0
@@ -4704,6 +4718,7 @@ GameObject:
   - component: {fileID: 1565466680}
   - component: {fileID: 1565466682}
   - component: {fileID: 1565466681}
+  - component: {fileID: 1565466683}
   m_Layer: 0
   m_Name: CoupleOnTheBeach1
   m_TagString: Untagged
@@ -4719,7 +4734,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1565466679}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1336, y: -380, z: 539.99994}
+  m_LocalPosition: {x: 1336, y: -383, z: 539.99994}
   m_LocalScale: {x: 150, y: 150, z: 108}
   m_Children: []
   m_Father: {fileID: 1426396922}
@@ -4777,7 +4792,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -4
   m_Sprite: {fileID: 21300000, guid: 24c5a0b4c1725b44289d2f580eebd4b7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4789,6 +4804,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1565466683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565466679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c1984024b2c8e4fac6e89a73d8b91b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteAfterNuclear: {fileID: 21300000, guid: 083863ae9fc58fb4f9a7fcf34a76c898, type: 3}
 --- !u!1 &1569035587
 GameObject:
   m_ObjectHideFlags: 0
@@ -6431,9 +6459,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2072448981}
-        m_TargetAssemblyTypeName: NuclearCount, Assembly-CSharp
-        m_MethodName: NuclearIconsDecreaseCount
+      - m_Target: {fileID: 1153180195}
+        m_TargetAssemblyTypeName: IconsController, Assembly-CSharp
+        m_MethodName: NuclearExplosion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6441,7 +6469,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2072448981
 MonoBehaviour:
