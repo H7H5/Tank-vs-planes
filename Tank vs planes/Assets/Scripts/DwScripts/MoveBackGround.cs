@@ -11,6 +11,9 @@ public class MoveBackGround : MonoBehaviour
     private float back_Size_x;
     private float back_pos_x;
     private float start_pos_y;
+
+    public SceneElementsController sceneElementsController;
+    private bool isLightHouse = false;
     void Start()
     {
         NuclearEventManager.OnStopMoveEnvironment.AddListener(StopMoveBackGround);
@@ -24,6 +27,22 @@ public class MoveBackGround : MonoBehaviour
     void Update()
     {
         Move();
+
+        CheckCreationChanceLightHouse();
+    }
+
+    private void CheckCreationChanceLightHouse()
+    {
+        if (sceneElementsController != null && back_pos_x > 0 && back_pos_x < 17f && isLightHouse == false)
+        {
+            isLightHouse = true;
+            sceneElementsController.InstantiateLightHouse();
+        }
+
+        if (isLightHouse == true && back_pos_x > 17f)
+        {
+            isLightHouse = false;
+        }
     }
 
     public float GetSpeedBackGround()
