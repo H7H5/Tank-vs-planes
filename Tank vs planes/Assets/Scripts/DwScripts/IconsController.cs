@@ -23,7 +23,7 @@ public class IconsController : MonoBehaviour
 
     public void NuclearExplosion()
     {
-        NuclearCount.NuclearIconsDecreaseCount();
+        NuclearCount.NuclearActivate();
 
         NuclearEventManager.SendNuclearExplosion();
     }
@@ -42,10 +42,5 @@ public class IconsController : MonoBehaviour
     public void MegaLaserCountIncrease()
     {
         iconsMegaLaser.CountIncreaseIcons();
-    }
-
-    public void MegaLaserActivate()
-    {
-        iconsMegaLaser.MegaLaserActivate();
     }
 }
