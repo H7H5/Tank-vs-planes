@@ -19,6 +19,7 @@ public class MoveNuclear : MonoBehaviour
 
         back_Tranform = GetComponent<Transform>();
 
+        keepSpeed = speed;
         nuclearSpeedBG = transform.parent.gameObject.GetComponent<NuclearSpeedBG>();
         speed = nuclearSpeedBG.GetMoveBackGroundSpeed();
     }
