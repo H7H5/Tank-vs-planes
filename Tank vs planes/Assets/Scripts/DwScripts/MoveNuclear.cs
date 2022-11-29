@@ -9,9 +9,8 @@ public class MoveNuclear : MonoBehaviour
     private float keepSpeed;
     private Transform back_Tranform;
     private float back_pos_x;
-    private float start_pos_y;
 
-    public MoveBackGround moveBackGround;
+    private NuclearSpeedBG nuclearSpeedBG;
 
     void Start()
     {
@@ -19,9 +18,9 @@ public class MoveNuclear : MonoBehaviour
         NuclearEventManager.OnStartMoveEnvironment.AddListener(StartMoveBackGround);
 
         back_Tranform = GetComponent<Transform>();
-        start_pos_y = GetComponent<SpriteRenderer>().transform.position.y;
 
-        speed = moveBackGround.GetSpeedBackGround();
+        nuclearSpeedBG = transform.parent.gameObject.GetComponent<NuclearSpeedBG>();
+        speed = nuclearSpeedBG.GetMoveBackGroundSpeed();
     }
 
     void Update()
@@ -54,6 +53,6 @@ public class MoveNuclear : MonoBehaviour
     public void Move()
     {
         back_pos_x += speed * Time.deltaTime;
-        back_Tranform.position = new Vector3(back_pos_x, start_pos_y, 0);
+        back_Tranform.position = new Vector3(back_pos_x, 0, 0);
     }
 }

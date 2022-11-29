@@ -8,7 +8,8 @@ public class NuclearCount : MonoBehaviour
 
     public List<GameObject> imagesNuclearIcons;
     public int countActivNuclearIcons;
-    public GameObject nuclearBG;
+    public GameObject prefabNuclear;
+    public GameObject gameObjectNuclearBG;
 
     public void CountActivNuclearIcon()
     {
@@ -25,7 +26,9 @@ public class NuclearCount : MonoBehaviour
 
     public void NuclearIconsIncreaseCount()
     {
-        if(countActivNuclearIcons < imagesNuclearIcons.Count)
+        CountActivNuclearIcon();
+
+        if (countActivNuclearIcons < imagesNuclearIcons.Count)
         {
             countActivNuclearIcons++;
 
@@ -36,23 +39,33 @@ public class NuclearCount : MonoBehaviour
         }
     }
 
-    public void NuclearIconsDecreaseCount()
+    public void NuclearActivate()
     {
         CountActivNuclearIcon();
 
         if (countActivNuclearIcons > 0)
         {
-            Instantiate(nuclearBG, new Vector2(0, 0), Quaternion.identity);
+            NuclearBackGroundEffects();
+            NuclearIconsDecreaseCount();
+        }
+    }
 
-            countActivNuclearIcons--;
+    private void NuclearBackGroundEffects()
+    {
+        GameObject nuclear = Instantiate(prefabNuclear, gameObjectNuclearBG.transform.position, Quaternion.identity) as GameObject;
+        nuclear.transform.parent = gameObjectNuclearBG.transform;
+    }
 
-            for (int i = imagesNuclearIcons.Count; i > 0; i--)
+    public void NuclearIconsDecreaseCount()
+    {
+        countActivNuclearIcons--;
+
+        for (int i = imagesNuclearIcons.Count; i > 0; i--)
+        {
+            if (imagesNuclearIcons[i - 1].activeInHierarchy)
             {
-                if (imagesNuclearIcons[i - 1].activeInHierarchy)
-                {
-                    imagesNuclearIcons[i - 1].SetActive(false);
-                    break;
-                }
+                imagesNuclearIcons[i - 1].SetActive(false);
+                break;
             }
         }
     }

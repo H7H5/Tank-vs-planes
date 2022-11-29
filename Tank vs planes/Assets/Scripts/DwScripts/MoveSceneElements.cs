@@ -6,21 +6,15 @@ public class MoveSceneElements : MonoBehaviour
 {
     [SerializeField]
     float speed;
-<<<<<<< Dweren
     private float keepSpeed;
-=======
->>>>>>> main
     private float pos_x;
     private float pos_y;
     private float pos_x_destroy = - 20f;
     void Start()
     {
-<<<<<<< Dweren
         NuclearEventManager.OnStopMoveEnvironment.AddListener(StopMoveBackGround);
         NuclearEventManager.OnStartMoveEnvironment.AddListener(StartMoveBackGround);
 
-=======
->>>>>>> main
         pos_x = GetComponent<SpriteRenderer>().transform.position.x;
         pos_y = GetComponent<SpriteRenderer>().transform.position.y;
     }
