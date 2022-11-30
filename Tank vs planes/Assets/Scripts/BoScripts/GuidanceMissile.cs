@@ -10,7 +10,7 @@ public class GuidanceMissile : MonoBehaviour
     [SerializeField] private List<Sprite> spritesMissile = new List<Sprite>();
     [SerializeField] private SpriteRenderer spriteRenderer;
     private float decisionPoint = 0f;
-    private float speedRotation = 200f;
+    private float speedRotation = 500f;
     private Transform target;
     void Start()
     {
