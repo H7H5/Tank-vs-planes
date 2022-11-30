@@ -10,12 +10,15 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Gun gun;
     [SerializeField] private Homing homing;
     [SerializeField] private RocketPlace rocketPlace;
+    [SerializeField] private Lightning lightning;
     [SerializeField] private List<Sprite> spritesTank = new List<Sprite>();
     [SerializeField] private SpriteRenderer spriteTank;
     [SerializeField] AudioSource audioSource;
     float positionTankX = 0;
     int curentSprite = 0;
     int stepidle = 0;
+
+
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -30,7 +33,9 @@ public class PlayerController : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, EndPoint, speed);
         }
         SetAnimation();
+
     }
+   
 
     private void SetAnimation()
     {
@@ -115,7 +120,7 @@ public class PlayerController : MonoBehaviour
                 Debug.Log(id);
                 break;
             case 11:
-                Debug.Log(id);
+                lightning.UpdeteLightning();
                 break;
         }
         CreateWords.Instance.CreateWord(id);
