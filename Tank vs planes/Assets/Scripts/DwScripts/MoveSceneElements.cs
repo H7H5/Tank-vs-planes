@@ -2,52 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveSceneElements : MonoBehaviour
+public class MoveSceneElements : MoveElements
 {
-    [SerializeField]
-    float speed;
-    private float keepSpeed;
-    private float pos_x;
-    private float pos_y;
     private float pos_x_destroy = - 20f;
+
     void Start()
     {
-        NuclearEventManager.OnStopMoveEnvironment.AddListener(StopMoveBackGround);
-        NuclearEventManager.OnStartMoveEnvironment.AddListener(StartMoveBackGround);
-
-        pos_x = GetComponent<SpriteRenderer>().transform.position.x;
-        pos_y = GetComponent<SpriteRenderer>().transform.position.y;
+        StartProperties();
     }
 
     void Update()
     {
         Move();
+        CheckToDestroy();
     }
 
-    public void StopMoveBackGround()
+    private void CheckToDestroy()
     {
-        if (speed != 0)
-        {
-            keepSpeed = speed;
-        }
-        speed = 0;
-    }
-
-    public void StartMoveBackGround()
-    {
-        if (speed == 0)
-        {
-            speed = keepSpeed;
-        }
-    }
-
-    public void Move()
-    {
-        if(pos_x < pos_x_destroy)
+        if (pos_x < pos_x_destroy)
         {
             Destroy(gameObject);
         }
-        pos_x += speed * Time.deltaTime;
-        transform.position = new Vector3(pos_x, pos_y, 0);
     }
 }
