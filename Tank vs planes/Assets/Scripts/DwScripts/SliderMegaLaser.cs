@@ -14,9 +14,9 @@ public class SliderMegaLaser : MonoBehaviour
         value = slider.maxValue;
     }
 
-    void Update()
+    private void Update()
     {
-        if(slider.value > 0)
+        if (slider.value > 0)
         {
             if (Input.GetMouseButtonDown(0))
             {
@@ -27,11 +27,14 @@ public class SliderMegaLaser : MonoBehaviour
                 speed = 1;
             }
         }
+    }
 
+    private void FixedUpdate()
+    {
         value -= speed;
         slider.value = value;
 
-        if(slider.value == 0)
+        if (slider.value == 0)
         {
             slider.value = slider.maxValue;
             value = slider.maxValue;
@@ -39,6 +42,4 @@ public class SliderMegaLaser : MonoBehaviour
             transform.parent.gameObject.SetActive(false);
         }
     }
-
-
 }

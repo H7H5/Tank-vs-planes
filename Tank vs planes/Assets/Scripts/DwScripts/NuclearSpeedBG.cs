@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class NuclearSpeedBG : MonoBehaviour
 {
-    public MoveBackGround moveBackGround;
+    public MoveElementBackGround moveBehindBackGround;
 
     public float GetMoveBackGroundSpeed()
     {
-        return moveBackGround.GetSpeedBackGround();
+        return moveBehindBackGround.GetSpeedElementBackGround();
     }
 }

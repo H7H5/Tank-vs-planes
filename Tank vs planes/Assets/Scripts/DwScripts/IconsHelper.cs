@@ -30,7 +30,7 @@ public class IconsHelper : MonoBehaviour
 
     public void CountIncreaseIcons()
     {
-        if (countActivIcons < imagesIcons.Count)
+        if (countActivIcons < imagesIcons.Count && !MegaLaserAction.activeInHierarchy)
         {
             countActivIcons++;
 
