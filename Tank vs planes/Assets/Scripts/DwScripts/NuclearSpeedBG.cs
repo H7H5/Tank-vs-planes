@@ -8,6 +8,6 @@ public class NuclearSpeedBG : MonoBehaviour
 
     public float GetMoveBackGroundSpeed()
     {
-        return moveBehindBackGround.GetSpeedElementBackGround();
+        return moveBehindBackGround.GetSpeed();
     }
 }

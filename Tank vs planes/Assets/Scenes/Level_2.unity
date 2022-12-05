@@ -2469,7 +2469,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 890566439}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -120, z: 482.9907}
+  m_LocalPosition: {x: 0, y: -120, z: 0}
   m_LocalScale: {x: 250, y: 250, z: 96.59814}
   m_Children:
   - {fileID: 747834162}
@@ -2486,11 +2486,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 890566439}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0d28fb01cf9c1e48baab26ba2195e73, type: 3}
+  m_Script: {fileID: 11500000, guid: 69997133b54d6824c90b4d7863d50213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -2
-  sceneElementsController: {fileID: 1426396923}
+  speedElement: 1
 --- !u!212 &890566442
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4075,9 +4074,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabLightHouse: {fileID: 4093537650065586740, guid: e41740e96a1220b42a4b8132a7021d52, type: 3}
-  sceneElements: {fileID: 1426396921}
   backGround: {fileID: 890566439}
-  spawnChancePercents: 40
+  lightHouseSpawnChance: 40
   spawnCoordinates: {x: -1.11, y: 0.7}
 --- !u!1 &1449438567
 GameObject:
