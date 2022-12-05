@@ -28,8 +28,13 @@ public class MoveElementBackGround : MoveElements
         pos_x = Mathf.Repeat(pos_x, size_x);
     }
 
-    public float GetSpeedElementBackGround()
+    public float GetSpeed()
     {
         return speed;
+    }
+
+    public float GetPosX()
+    {
+        return pos_x;
     }
 }

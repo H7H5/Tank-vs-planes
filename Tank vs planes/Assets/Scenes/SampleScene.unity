@@ -1202,11 +1202,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 785408787}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0d28fb01cf9c1e48baab26ba2195e73, type: 3}
+  m_Script: {fileID: 11500000, guid: 69997133b54d6824c90b4d7863d50213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -0.5
-  sceneElementsController: {fileID: 0}
+  speedElement: 3
 --- !u!212 &785408790
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1531,8 +1530,8 @@ GameObject:
   m_Component:
   - component: {fileID: 890566440}
   - component: {fileID: 890566442}
-  - component: {fileID: 890566441}
   - component: {fileID: 890566443}
+  - component: {fileID: 890566441}
   m_Layer: 0
   m_Name: frigistan_bg
   m_TagString: Untagged
@@ -1565,11 +1564,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 890566439}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0d28fb01cf9c1e48baab26ba2195e73, type: 3}
+  m_Script: {fileID: 11500000, guid: 69997133b54d6824c90b4d7863d50213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -2
-  sceneElementsController: {fileID: 0}
+  speedElement: 1
 --- !u!212 &890566442
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2321,11 +2319,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1249305729}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0d28fb01cf9c1e48baab26ba2195e73, type: 3}
+  m_Script: {fileID: 11500000, guid: 69997133b54d6824c90b4d7863d50213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -4
-  sceneElementsController: {fileID: 0}
+  speedElement: 0
 --- !u!212 &1249305732
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2504,11 +2501,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1333361780}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0d28fb01cf9c1e48baab26ba2195e73, type: 3}
+  m_Script: {fileID: 11500000, guid: 69997133b54d6824c90b4d7863d50213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -4
-  sceneElementsController: {fileID: 0}
+  speedElement: 0
 --- !u!212 &1333361783
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2992,11 +2988,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1908158523}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0d28fb01cf9c1e48baab26ba2195e73, type: 3}
+  m_Script: {fileID: 11500000, guid: 69997133b54d6824c90b4d7863d50213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -1
-  sceneElementsController: {fileID: 0}
+  speedElement: 2
 --- !u!212 &1908158526
 SpriteRenderer:
   m_ObjectHideFlags: 0
