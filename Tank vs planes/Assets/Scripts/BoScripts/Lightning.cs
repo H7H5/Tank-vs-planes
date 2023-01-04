@@ -17,7 +17,7 @@ public class Lightning : MonoBehaviour
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        CreatePoint();
+        //CreatePoint();
     }
 
     // Update is called once per frame
@@ -26,10 +26,14 @@ public class Lightning : MonoBehaviour
 
         if (timeRtwShots <= 0)
         {
-            if (Input.GetMouseButton(0) && target !=null)
+            if (Input.GetMouseButton(0))
             {
-                Shot();
-               
+                target = EnemyPool.Instance.GetEnemyLighting(gameObject.transform);
+                if (target != null)
+                {
+                    Shot();
+                    
+                }
             }
         }
         else
