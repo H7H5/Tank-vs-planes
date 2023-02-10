@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class EnemyPool : MonoBehaviour
 {
+    [SerializeField] private GameObject enemyPrefab;
+    [SerializeField] Transform leftSpawnPoint;
+    [SerializeField] Transform RightSpawnPoint;
     public static EnemyPool Instance;
     public List<GameObject> enemies = new List<GameObject>();
     void Start()
@@ -12,6 +15,7 @@ public class EnemyPool : MonoBehaviour
         {
             Instance = this;
         }
+        StartCoroutine(TestCoroutine());
     }
 
     // Update is called once per frame
@@ -60,4 +64,49 @@ public class EnemyPool : MonoBehaviour
             return false;
         }
     }
+
+
+    IEnumerator TestCoroutine()
+    {
+        while (true)
+        {
+            float delay = Random.Range(1.0f, 3.0f);
+            CreateEnemy();
+            yield return new WaitForSeconds(delay);
+        }
+    }
+    private void CreateEnemy()
+    {
+        bool direction;
+        int rand = Random.Range(0, 10);
+        direction = rand < 5 ? true : false; //true = leftSpawnPoint
+        GameObject enemy;
+        float y = Random.Range(leftSpawnPoint.position.y, RightSpawnPoint.position.y);
+        if (direction)
+        {
+             Vector3 startPosition = new Vector3(leftSpawnPoint.position.x, y, leftSpawnPoint.position.z);
+             enemy = Instantiate(enemyPrefab, startPosition, leftSpawnPoint.transform.rotation);
+        }
+        else
+        {
+            Vector3 startPosition = new Vector3(RightSpawnPoint.position.x, y, RightSpawnPoint.position.z);
+            enemy = Instantiate(enemyPrefab, startPosition, RightSpawnPoint.transform.rotation);
+        }
+        enemy.GetComponent<Enemy>().Init(direction);
+        enemies.Add(enemy);
+
+
+    }
+    public void DeleteEnemy(GameObject enemy)
+    {
+        for (int i = 0; i < enemies.Count ; i++)
+        {
+            if (enemy.GetInstanceID() == enemies[i].GetInstanceID())
+            {
+                Destroy(enemies[i]);
+                enemies.RemoveAt(i);
+            }
+        }
+    }
 }
+
