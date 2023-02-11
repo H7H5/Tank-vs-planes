@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyPool : MonoBehaviour
 {
-    [SerializeField] private GameObject enemyPrefab;
+    [SerializeField] List<GameObject> enemyPrefabs = new List<GameObject>();
     [SerializeField] Transform leftSpawnPoint;
     [SerializeField] Transform RightSpawnPoint;
     public static EnemyPool Instance;
@@ -82,15 +82,16 @@ public class EnemyPool : MonoBehaviour
         direction = rand < 5 ? true : false; //true = leftSpawnPoint
         GameObject enemy;
         float y = Random.Range(leftSpawnPoint.position.y, RightSpawnPoint.position.y);
+        int numberEnemy = Random.Range(0, enemyPrefabs.Count);
         if (direction)
         {
              Vector3 startPosition = new Vector3(leftSpawnPoint.position.x, y, leftSpawnPoint.position.z);
-             enemy = Instantiate(enemyPrefab, startPosition, leftSpawnPoint.transform.rotation);
+             enemy = Instantiate(enemyPrefabs[numberEnemy], startPosition, leftSpawnPoint.transform.rotation);
         }
         else
         {
             Vector3 startPosition = new Vector3(RightSpawnPoint.position.x, y, RightSpawnPoint.position.z);
-            enemy = Instantiate(enemyPrefab, startPosition, RightSpawnPoint.transform.rotation);
+            enemy = Instantiate(enemyPrefabs[numberEnemy], startPosition, RightSpawnPoint.transform.rotation);
         }
         enemy.GetComponent<Enemy>().Init(direction);
         enemies.Add(enemy);
