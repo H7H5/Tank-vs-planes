@@ -113,6 +113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c445c269d539e6f42b7d8182567483cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spark: {fileID: 7682043943525265348, guid: 81548e4a54f4e6f45801a8ab6f660374, type: 3}
   damage: 50
   spriteRenderer: {fileID: 8624260739828894229}
   spritesBullet:

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    [SerializeField] GameObject spark;
     private float movementSpeed = 15.0f;
     public int damage = 50;
     [SerializeField] SpriteRenderer spriteRenderer;
@@ -17,6 +18,15 @@ public class Bullet : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("border"))
         {
+            Destroy(gameObject);
+        }
+        else if (collision.gameObject.CompareTag("enemy"))
+        {
+            int count = Random.Range(2, 10);
+            for (int i = 0; i < count; i++)
+            {
+                Instantiate(spark, gameObject.transform.position, gameObject.transform.rotation);
+            } 
             Destroy(gameObject);
         }
         
