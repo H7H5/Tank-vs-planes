@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    [SerializeField] GameObject explosion;
     private Vector3 vector;
     private float movementSpeed = 0f;
     private void Awake()
@@ -32,6 +33,12 @@ public class Enemy : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("border"))
         {
+            EnemyPool.Instance.DeleteEnemy(gameObject);
+            //Destroy(gameObject);
+        }
+        else if (collision.gameObject.CompareTag("bullet"))
+        {
+            Instantiate(explosion, gameObject.transform.position, gameObject.transform.rotation);
             EnemyPool.Instance.DeleteEnemy(gameObject);
             //Destroy(gameObject);
         }

@@ -70,7 +70,7 @@ public class EnemyPool : MonoBehaviour
     {
         while (true)
         {
-            float delay = Random.Range(1.0f, 3.0f);
+            float delay = Random.Range(0.1f, 1.5f);
             CreateEnemy();
             yield return new WaitForSeconds(delay);
         }
@@ -83,6 +83,7 @@ public class EnemyPool : MonoBehaviour
         GameObject enemy;
         float y = Random.Range(leftSpawnPoint.position.y, RightSpawnPoint.position.y);
         int numberEnemy = Random.Range(0, enemyPrefabs.Count);
+        //int numberEnemy = 8;
         if (direction)
         {
              Vector3 startPosition = new Vector3(leftSpawnPoint.position.x, y, leftSpawnPoint.position.z);

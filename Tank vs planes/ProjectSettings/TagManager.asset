@@ -6,6 +6,9 @@ TagManager:
   tags:
   - border
   - enemy
+  - pyramid
+  - plane
+  - bullet
   layers:
   - Default
   - TransparentFX
