@@ -8,6 +8,11 @@ public class SceneElementsController : MonoBehaviour
     public GameObject prefabScriptableObject;
     private GameObject prefabCouple;
 
+
+    public ElementBackGround[] elementScriptable;
+    private List<GameObject> prefabsSceneElements = new List<GameObject>();
+
+
     [Header("LightHouse")]
     public GameObject prefabLightHouse;
     public GameObject backGround;
@@ -19,51 +24,44 @@ public class SceneElementsController : MonoBehaviour
     private bool isLightHouse = false;
     public Vector2 lightHouseSpawnCoordinates;
 
-    [Header("CoupleOnBeach")]
-    public GameObject prefabCoupleOnBeach;
-    public GameObject ground;
-    private MoveElementBackGround moveElementGround;
-    private float borderCheckCouple = 12f;
-    [SerializeField]
-    [Range(0f, 100f)]
-    private float CoupleSpawnChance;
-    private bool isCouple = false;
-    public Vector2 CoupleSpawnCoordinates;
-
     private void Start()
     {
         moveElementBackGround = backGround.GetComponent<MoveElementBackGround>();
-        moveElementGround = ground.GetComponent<MoveElementBackGround>();
 
-        //prefabCouple = prefabScriptableObject;
-        prefabCouple = Instantiate(prefabCoupleOnBeach);
-        PrefabElementProperties scriptPrefabCouple = prefabCouple.GetComponent<PrefabElementProperties>();
-        scriptPrefabCouple.namePrefab = elementBackGround.nameElement;
-        elementBackGround.SetBackGroundGameObject(elementBackGround.backGroundGameObjects);
-        scriptPrefabCouple.elementBackGround = elementBackGround.backGround;
-        scriptPrefabCouple.moveElementBackGround = elementBackGround.backGround.GetComponent<MoveElementBackGround>();
-        scriptPrefabCouple.borderCheck = elementBackGround.borderCheck;
-        scriptPrefabCouple.spawnChance = elementBackGround.spawnChance;
-        scriptPrefabCouple.spawnCoordinates = elementBackGround.spawnCoordinates;
-        scriptPrefabCouple.beforeNuclear = elementBackGround.beforeNuclear;
-
-        prefabCouple.GetComponent<SpriteRenderer>().sprite = elementBackGround.beforeNuclear;
-        prefabCouple.GetComponent<NuclearEffects>().spriteAfterNuclear = elementBackGround.afterNuclear;
+        CreateAndInstantiatePrefab();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         CheckCreationChanceLightHouse();
-        //CheckCreationChanceCouple();
-        //CheckCreationChance(moveElementGround, borderCheckCouple, CoupleSpawnChance, prefabCoupleOnBeach, ground, CoupleSpawnCoordinates);
-        CheckCreationChance(prefabCouple);
+
+        CheckCreationChance(prefabsSceneElements[0]);
+    }
+
+    private void CreateAndInstantiatePrefab()
+    {
+        GameObject prefab = Instantiate(prefabScriptableObject);
+
+        PrefabElementProperties scriptPrefabCouple = prefab.GetComponent<PrefabElementProperties>();
+        scriptPrefabCouple.namePrefab = elementScriptable[0].nameElement;
+        elementScriptable[0].SetBackGroundGameObject(elementScriptable[0].backGroundGameObjects);
+        scriptPrefabCouple.elementBackGround = elementScriptable[0].backGround;
+        scriptPrefabCouple.moveElementBackGround = elementScriptable[0].backGround.GetComponent<MoveElementBackGround>();
+        scriptPrefabCouple.borderCheck = elementScriptable[0].borderCheck;
+        scriptPrefabCouple.spawnChance = elementScriptable[0].spawnChance;
+        scriptPrefabCouple.spawnCoordinates = elementScriptable[0].spawnCoordinates;
+        scriptPrefabCouple.beforeNuclear = elementScriptable[0].beforeNuclear;
+
+        prefab.GetComponent<SpriteRenderer>().sprite = elementScriptable[0].beforeNuclear;
+        prefab.GetComponent<NuclearEffects>().spriteAfterNuclear = elementScriptable[0].afterNuclear;
+
+        prefabsSceneElements.Add(prefab);
     }
 
     private void CheckCreationChance(GameObject prefab)
     {
         PrefabElementProperties scriptPrefab = prefab.GetComponent<PrefabElementProperties>();
         MoveElementBackGround scriptBG = scriptPrefab.elementBackGround.GetComponent<MoveElementBackGround>();
-        //Debug.Log(scriptPrefab.isExist);
         if (scriptBG.GetPosX() > 0 && scriptBG.GetPosX() < scriptPrefab.borderCheck && scriptPrefab.isExist == false)
         {
             scriptPrefab.isExist = true;
@@ -81,7 +79,7 @@ public class SceneElementsController : MonoBehaviour
         return Random.Range(0f, 100f);
     }
 
-    public void InstantiatePrefab(float spawnChance, GameObject prefab, GameObject moveElement, Vector2 spawnCoordinates)
+    private void InstantiatePrefab(float spawnChance, GameObject prefab, GameObject moveElement, Vector2 spawnCoordinates)
     {
         if (RandomFloatForPercents() < spawnChance)
         {
@@ -89,34 +87,6 @@ public class SceneElementsController : MonoBehaviour
             gameObjectInstantiated.transform.parent = moveElement.transform;
             gameObjectInstantiated.transform.localPosition = spawnCoordinates;
             gameObjectInstantiated.GetComponent<SpriteRenderer>().sprite = prefab.GetComponent<PrefabElementProperties>().beforeNuclear;
-        }
-    }
-
-    //private void CheckCreationChance( MoveElementBackGround scriptMoveElement, float borderCheck, float spawnChance, GameObject prefab, GameObject moveElement, Vector2 spawnCoordinates)
-    //{
-    //    if (scriptMoveElement.GetPosX() > 0 && scriptMoveElement.GetPosX() < borderCheck && prefab.GetComponent<IsExistPrefab>().isExist == false)
-    //    {
-    //        prefab.GetComponent<IsExistPrefab>().isExist = true;
-    //        InstantiatePrefab(spawnChance, prefab, moveElement, spawnCoordinates);
-    //    }
-    //
-    //    if (prefab.GetComponent<IsExistPrefab>().isExist == true && scriptMoveElement.GetPosX() > borderCheck)
-    //    {
-    //        prefab.GetComponent<IsExistPrefab>().isExist = false;
-    //    }
-    //}
-
-    private void CheckCreationChanceCouple()
-    {
-        if (moveElementGround.GetPosX() > 0 && moveElementGround.GetPosX() < borderCheckCouple && isCouple == false)
-        {
-            isCouple = true;
-            InstantiatePrefab(CoupleSpawnChance, prefabCoupleOnBeach, ground, CoupleSpawnCoordinates);
-        }
-
-        if (isCouple == true && moveElementGround.GetPosX() > borderCheckCouple)
-        {
-            isCouple = false;
         }
     }
 

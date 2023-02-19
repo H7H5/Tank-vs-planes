@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -4
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 24c5a0b4c1725b44289d2f580eebd4b7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_Size: {x: 1.15, y: 0.55}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &6751807527698223604
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6c1984024b2c8e4fac6e89a73d8b91b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteAfterNuclear: {fileID: 0}
+  spriteAfterNuclear: {fileID: 21300000, guid: 083863ae9fc58fb4f9a7fcf34a76c898, type: 3}
 --- !u!114 &4058742768966121302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,4 +143,5 @@ MonoBehaviour:
   borderCheck: 12
   spawnChance: 50
   spawnCoordinates: {x: 2, y: 0.212}
-  isExist: 1
+  beforeNuclear: {fileID: 21300000, guid: 24c5a0b4c1725b44289d2f580eebd4b7, type: 3}
+  isExist: 0

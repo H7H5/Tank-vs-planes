@@ -4130,14 +4130,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   elementBackGround: {fileID: 11400000, guid: 221f988d128f9134abb974c440dac07a, type: 2}
   prefabScriptableObject: {fileID: 6751807527698223610, guid: f2513b2f8ae11d34c84964a657ae5b68, type: 3}
+  elementScriptable:
+  - {fileID: 11400000, guid: 6df547e3fcf026740930d36ccae73986, type: 2}
   prefabLightHouse: {fileID: 4093537650065586740, guid: e41740e96a1220b42a4b8132a7021d52, type: 3}
   backGround: {fileID: 890566439}
   lightHouseSpawnChance: 40
   lightHouseSpawnCoordinates: {x: -1.11, y: 0.7}
-  prefabCoupleOnBeach: {fileID: 6746394428763358369, guid: e16b317e6e048f44a9c6bbb5620b6454, type: 3}
-  ground: {fileID: 1333361780}
-  CoupleSpawnChance: 30
-  CoupleSpawnCoordinates: {x: 2, y: 0.212}
 --- !u!1 &1449438567
 GameObject:
   m_ObjectHideFlags: 0
