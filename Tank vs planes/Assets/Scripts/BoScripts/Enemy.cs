@@ -7,6 +7,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] GameObject explosion;
     private Vector3 vector;
     private float movementSpeed = 0f;
+    [SerializeField] private int points = 0;
     private void Awake()
     {
         Init(true);
@@ -38,9 +39,12 @@ public class Enemy : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("bullet"))
         {
-            Instantiate(explosion, gameObject.transform.position, gameObject.transform.rotation);
-            EnemyPool.Instance.DeleteEnemy(gameObject);
-            //Destroy(gameObject);
+            points -= collision.GetComponent<Bullet>().damage;
+            if (points<=0)
+            {
+                Instantiate(explosion, gameObject.transform.position, gameObject.transform.rotation);
+                EnemyPool.Instance.DeleteEnemy(gameObject);
+            }
         }
 
     }

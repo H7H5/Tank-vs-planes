@@ -98,6 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosion: {fileID: 100004, guid: 5b36ee50e0383a849bf405e888a1df13, type: 3}
+  points: 150
 --- !u!50 &8613391409164158923
 Rigidbody2D:
   serializedVersion: 4
