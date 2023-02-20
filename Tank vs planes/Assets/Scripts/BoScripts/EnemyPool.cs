@@ -82,17 +82,18 @@ public class EnemyPool : MonoBehaviour
         direction = rand < 5 ? true : false; //true = leftSpawnPoint
         GameObject enemy;
         float y = Random.Range(leftSpawnPoint.position.y, RightSpawnPoint.position.y);
-        int numberEnemy = Random.Range(0, enemyPrefabs.Count);
+        int numberEnemy = 0;
+        //int numberEnemy = Random.Range(0, enemyPrefabs.Count);
         //int numberEnemy = 8;
         if (direction)
         {
              Vector3 startPosition = new Vector3(leftSpawnPoint.position.x, y, leftSpawnPoint.position.z);
-             enemy = Instantiate(enemyPrefabs[numberEnemy], startPosition, leftSpawnPoint.transform.rotation);
+             enemy = Instantiate(enemyPrefabs[numberEnemy], startPosition, Quaternion.Euler(-110, 0f, -88f));
         }
         else
         {
             Vector3 startPosition = new Vector3(RightSpawnPoint.position.x, y, RightSpawnPoint.position.z);
-            enemy = Instantiate(enemyPrefabs[numberEnemy], startPosition, RightSpawnPoint.transform.rotation);
+            enemy = Instantiate(enemyPrefabs[numberEnemy], startPosition, Quaternion.Euler(-110f, 0f, 88f));
         }
         enemy.GetComponent<Enemy>().Init(direction);
         enemies.Add(enemy);
