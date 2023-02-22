@@ -6,54 +6,43 @@ public class SceneElementsController : MonoBehaviour
 {
     public ElementBackGround elementBackGround;
     public GameObject prefabScriptableObject;
-    private GameObject prefabCouple;
 
-
-    public ElementBackGround[] elementScriptable;
+    public ElementBackGround[] elementsScriptable;
     private List<GameObject> prefabsSceneElements = new List<GameObject>();
-
-
-    [Header("LightHouse")]
-    public GameObject prefabLightHouse;
-    public GameObject backGround;
-    private MoveElementBackGround moveElementBackGround;
-    private float borderCheckLightHouse = 17f;
-    [SerializeField]
-    [Range(0f, 100f)]
-    private float lightHouseSpawnChance;
-    private bool isLightHouse = false;
-    public Vector2 lightHouseSpawnCoordinates;
 
     private void Start()
     {
-        moveElementBackGround = backGround.GetComponent<MoveElementBackGround>();
+        foreach (ElementBackGround element in elementsScriptable)
+        {
 
-        CreateAndInstantiatePrefab();
+            CreateAndInstantiatePrefab(element);
+        }
     }
 
     private void FixedUpdate()
     {
-        CheckCreationChanceLightHouse();
-
-        CheckCreationChance(prefabsSceneElements[0]);
+        foreach (GameObject prefab in prefabsSceneElements)
+        {
+            CheckCreationChance(prefab);
+        }
     }
 
-    private void CreateAndInstantiatePrefab()
+    private void CreateAndInstantiatePrefab(ElementBackGround element)
     {
         GameObject prefab = Instantiate(prefabScriptableObject);
 
         PrefabElementProperties scriptPrefabCouple = prefab.GetComponent<PrefabElementProperties>();
-        scriptPrefabCouple.namePrefab = elementScriptable[0].nameElement;
-        elementScriptable[0].SetBackGroundGameObject(elementScriptable[0].backGroundGameObjects);
-        scriptPrefabCouple.elementBackGround = elementScriptable[0].backGround;
-        scriptPrefabCouple.moveElementBackGround = elementScriptable[0].backGround.GetComponent<MoveElementBackGround>();
-        scriptPrefabCouple.borderCheck = elementScriptable[0].borderCheck;
-        scriptPrefabCouple.spawnChance = elementScriptable[0].spawnChance;
-        scriptPrefabCouple.spawnCoordinates = elementScriptable[0].spawnCoordinates;
-        scriptPrefabCouple.beforeNuclear = elementScriptable[0].beforeNuclear;
+        scriptPrefabCouple.namePrefab = element.nameElement;
+        element.SetBackGroundGameObject(element.backGroundGameObjects);
+        scriptPrefabCouple.elementBackGround = element.backGround;
+        scriptPrefabCouple.moveElementBackGround = element.backGround.GetComponent<MoveElementBackGround>();
+        scriptPrefabCouple.borderCheck = element.borderCheck;
+        scriptPrefabCouple.spawnChance = element.spawnChance;
+        scriptPrefabCouple.spawnCoordinates = element.spawnCoordinates;
+        scriptPrefabCouple.beforeNuclear = element.beforeNuclear;
 
-        prefab.GetComponent<SpriteRenderer>().sprite = elementScriptable[0].beforeNuclear;
-        prefab.GetComponent<NuclearEffects>().spriteAfterNuclear = elementScriptable[0].afterNuclear;
+        prefab.GetComponent<SpriteRenderer>().sprite = element.beforeNuclear;
+        prefab.GetComponent<NuclearEffects>().spriteAfterNuclear = element.afterNuclear;
 
         prefabsSceneElements.Add(prefab);
     }
@@ -87,30 +76,6 @@ public class SceneElementsController : MonoBehaviour
             gameObjectInstantiated.transform.parent = moveElement.transform;
             gameObjectInstantiated.transform.localPosition = spawnCoordinates;
             gameObjectInstantiated.GetComponent<SpriteRenderer>().sprite = prefab.GetComponent<PrefabElementProperties>().beforeNuclear;
-        }
-    }
-
-    public void InstantiateLightHouse()
-    {
-        if(RandomFloatForPercents() < lightHouseSpawnChance)
-        {
-            GameObject lightHous = Instantiate(prefabLightHouse, new Vector2(0, 0), Quaternion.identity) as GameObject;
-            lightHous.transform.parent = backGround.transform;
-            lightHous.transform.localPosition = lightHouseSpawnCoordinates;
-        }
-    }
-
-    private void CheckCreationChanceLightHouse()
-    {
-        if (moveElementBackGround.GetPosX() > 0 && moveElementBackGround.GetPosX() < borderCheckLightHouse && isLightHouse == false)
-        {
-            isLightHouse = true;
-            InstantiateLightHouse();
-        }
-
-        if (isLightHouse == true && moveElementBackGround.GetPosX() > borderCheckLightHouse)
-        {
-            isLightHouse = false;
         }
     }
 }

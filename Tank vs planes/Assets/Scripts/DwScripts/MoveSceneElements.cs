@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoveSceneElements : MoveElements
 {
-    private float pos_x_destroy = - 20f;
+    private float pos_x_destroy = - 40f;
 
     void Start()
     {
