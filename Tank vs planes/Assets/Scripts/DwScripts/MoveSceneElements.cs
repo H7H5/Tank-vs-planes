@@ -4,17 +4,22 @@ using UnityEngine;
 
 public class MoveSceneElements : MoveElements
 {
-    private float pos_x_destroy = - 40f;
+    private float pos_x_destroy = - 20f;
 
     void Start()
     {
-        StartProperties();
+        StartPropertiesForElements();
     }
 
     void Update()
     {
         Move();
         CheckToDestroy();
+    }
+
+    public void SetSpeedSceneElement(float speedElement)
+    {
+        speed = speedElement;
     }
 
     private void CheckToDestroy()

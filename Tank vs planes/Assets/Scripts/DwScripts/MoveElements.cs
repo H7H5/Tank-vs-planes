@@ -32,6 +32,15 @@ public class MoveElements : MonoBehaviour
         SetSpeedElements(speedElement);
     }
 
+    protected void StartPropertiesForElements()
+    {
+        NuclearEventManager.OnStopMoveEnvironment.AddListener(StopMoveElement);
+        NuclearEventManager.OnStartMoveEnvironment.AddListener(StartMoveElement);
+
+        pos_x = transform.position.x;
+        pos_y = transform.position.y;
+    }
+
     public enum SpeedElements
     {
         Ground,
