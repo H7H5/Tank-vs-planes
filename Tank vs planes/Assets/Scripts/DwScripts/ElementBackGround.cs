@@ -9,6 +9,8 @@ public class ElementBackGround : ScriptableObject
 
     [HideInInspector]
     public GameObject backGround;
+    [HideInInspector]
+    public float speed;
 
     public BackGroundGameObjects backGroundGameObjects;
 
@@ -27,6 +29,28 @@ public class ElementBackGround : ScriptableObject
         BackGround,
         BehindBackGround,
         Sky
+    }
+
+    public void SetSpeedElements(BackGroundGameObjects speedElement)
+    {
+        switch (speedElement)
+        {
+            case BackGroundGameObjects.Ground:
+                speed = -4f;
+                break;
+            case BackGroundGameObjects.BackGround:
+                speed = -2f;
+                break;
+            case BackGroundGameObjects.BehindBackGround:
+                speed = -1f;
+                break;
+            case BackGroundGameObjects.Sky:
+                speed = -0.5f;
+                break;
+            default:
+                speed = 0f;
+                break;
+        }
     }
 
     public void SetBackGroundGameObject (BackGroundGameObjects backGroundGameObjects)

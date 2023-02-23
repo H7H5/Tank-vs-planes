@@ -8,6 +8,7 @@ public class PrefabElementProperties : MonoBehaviour
 
     public GameObject elementBackGround;
     public MoveElementBackGround moveElementBackGround;
+    public float speed;
     public float borderCheck;
     [SerializeField]
     [Range(0f, 100f)]
