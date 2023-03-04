@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     float positionTankX = 0;
     int curentSprite = 0;
     int stepidle = 0;
+    [SerializeField] private Caterpillar caterpillar;
 
 
     private void Start()
@@ -47,11 +48,13 @@ public class PlayerController : MonoBehaviour
             {
                 curentSprite--;
                 if (curentSprite < 0) curentSprite = spritesTank.Count - 1;
+                caterpillar.SetAnimation(1);
             }
             else
             {
                 curentSprite++;
                 if (curentSprite >spritesTank.Count-1) curentSprite = 0;
+                caterpillar.SetAnimation(0);
             }
         }
         else
@@ -62,6 +65,7 @@ public class PlayerController : MonoBehaviour
                 if (curentSprite > spritesTank.Count - 1) curentSprite = 0;
                 stepidle = 0;
             }
+            caterpillar.SetAnimation(0);
         }
         spriteTank.sprite = spritesTank[curentSprite];
         positionTankX = transform.position.x;
