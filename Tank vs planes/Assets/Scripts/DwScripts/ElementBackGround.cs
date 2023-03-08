@@ -7,12 +7,13 @@ public class ElementBackGround : ScriptableObject
 {
     public string nameElement;
 
+    //[HideInInspector]
+    //public GameObject backGround;
     [HideInInspector]
-    public GameObject backGround;
-    [HideInInspector]
-    public float speed;
+    //public float speed;
 
-    public BackGroundGameObjects backGroundGameObjects;
+    //public BackGroundGameObjects backGroundGameObjects;
+    
 
     public float borderCheck;
     [SerializeField]
@@ -23,56 +24,59 @@ public class ElementBackGround : ScriptableObject
     public Sprite beforeNuclear;
     public Sprite afterNuclear;
 
-    public enum BackGroundGameObjects
-    {
-        Ground,
-        BackGround,
-        BehindBackGround,
-        Sky
-    }
+    [SerializeField]
+    public LayerBackGround layerBackGround;
 
-    public void SetSpeedElements(BackGroundGameObjects speedElement)
-    {
-        switch (speedElement)
-        {
-            case BackGroundGameObjects.Ground:
-                speed = -4f;
-                break;
-            case BackGroundGameObjects.BackGround:
-                speed = -2f;
-                break;
-            case BackGroundGameObjects.BehindBackGround:
-                speed = -1f;
-                break;
-            case BackGroundGameObjects.Sky:
-                speed = -0.5f;
-                break;
-            default:
-                speed = 0f;
-                break;
-        }
-    }
+    //public enum BackGroundGameObjects
+    //{
+    //    Ground,
+    //    BackGround,
+    //    BehindBackGround,
+    //    Sky
+    //}
 
-    public void SetBackGroundGameObject (BackGroundGameObjects backGroundGameObjects)
-    {
-        GameObject backGrounds = GameObject.Find("BackGrounds");
-        switch (backGroundGameObjects)
-        {
-            case BackGroundGameObjects.Ground:
-                backGround = backGrounds.transform.GetChild(0).gameObject;
-                break;
-            case BackGroundGameObjects.BackGround:
-                backGround = backGrounds.transform.GetChild(1).gameObject;
-                break;
-            case BackGroundGameObjects.BehindBackGround:
-                backGround = backGrounds.transform.GetChild(2).gameObject;
-                break;
-            case BackGroundGameObjects.Sky:
-                backGround = backGrounds.transform.GetChild(3).gameObject;
-                break;
-            default:
-                backGround = backGrounds.transform.GetChild(0).gameObject;
-                break;
-        }
-    }
+    //public void SetSpeedElements(BackGroundGameObjects speedElement)
+    //{
+    //    switch (speedElement)
+    //    {
+    //        case BackGroundGameObjects.Ground:
+    //            speed = -4f;
+    //            break;
+    //        case BackGroundGameObjects.BackGround:
+    //            speed = -2f;
+    //            break;
+    //        case BackGroundGameObjects.BehindBackGround:
+    //            speed = -1f;
+    //            break;
+    //        case BackGroundGameObjects.Sky:
+    //            speed = -0.5f;
+    //            break;
+    //        default:
+    //            speed = 0f;
+    //            break;
+    //    }
+    //}
+
+    //public void SetBackGroundGameObject (LayerBackGround backGroundGameObjects)
+    //{
+    //    GameObject backGrounds = GameObject.Find("BackGrounds");
+    //    switch (backGroundGameObjects)
+    //    {
+    //        case LayerBackGround.Ground:
+    //            backGround = backGrounds.transform.GetChild(0).gameObject;
+    //            break;
+    //        case LayerBackGround.BackGround:
+    //            backGround = backGrounds.transform.GetChild(1).gameObject;
+    //            break;
+    //        case LayerBackGround.BehindBackGround:
+    //            backGround = backGrounds.transform.GetChild(2).gameObject;
+    //            break;
+    //        case LayerBackGround.Sky:
+    //            backGround = backGrounds.transform.GetChild(3).gameObject;
+    //            break;
+    //        default:
+    //            backGround = backGrounds.transform.GetChild(0).gameObject;
+    //            break;
+    //    }
+    //}
 }
