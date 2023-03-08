@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SceneElementsController : MonoBehaviour
+public class SceneElementsController : SpeedLayersBackGround
 {
     public ElementBackGround elementBackGround;
     public GameObject prefabScriptableObject;
@@ -40,11 +40,12 @@ public class SceneElementsController : MonoBehaviour
 
         PrefabElementProperties scriptPrefabCouple = prefab.GetComponent<PrefabElementProperties>();
         scriptPrefabCouple.namePrefab = element.nameElement;
-        element.SetBackGroundGameObject(element.backGroundGameObjects);
-        scriptPrefabCouple.elementBackGround = element.backGround;
-        element.SetSpeedElements(element.backGroundGameObjects);
-        scriptPrefabCouple.speed = element.speed;
-        scriptPrefabCouple.moveElementBackGround = element.backGround.GetComponent<MoveElementBackGround>();
+        //element.SetBackGroundGameObject(element.layerBackGround);
+        scriptPrefabCouple.elementBackGround = SetBackGroundGameObject(element.layerBackGround);
+        //element.SetSpeedElements(element.backGroundGameObjects);
+        scriptPrefabCouple.speed = SetSpeed(element.layerBackGround);
+        //scriptPrefabCouple.moveElementBackGround = element.backGround.GetComponent<MoveElementBackGround>();
+        scriptPrefabCouple.moveElementBackGround = scriptPrefabCouple.GetComponent<MoveElementBackGround>();
         scriptPrefabCouple.borderCheck = element.borderCheck;
         scriptPrefabCouple.spawnChance = element.spawnChance;
         scriptPrefabCouple.spawnCoordinates = element.spawnCoordinates;
@@ -88,5 +89,30 @@ public class SceneElementsController : MonoBehaviour
             gameObjectInstantiated.GetComponent<SpriteRenderer>().sprite = prefab.GetComponent<PrefabElementProperties>().beforeNuclear;
             gameObjectInstantiated.transform.SetParent(sceneElements.transform);
         }
+    }
+
+    public GameObject SetBackGroundGameObject(LayerBackGround backGroundGameObjects)
+    {
+        GameObject backGround;
+        GameObject backGrounds = GameObject.Find("BackGrounds");
+        switch (backGroundGameObjects)
+        {
+            case LayerBackGround.Ground:
+                backGround = backGrounds.transform.GetChild(0).gameObject;
+                break;
+            case LayerBackGround.BackGround:
+                backGround = backGrounds.transform.GetChild(1).gameObject;
+                break;
+            case LayerBackGround.BehindBackGround:
+                backGround = backGrounds.transform.GetChild(2).gameObject;
+                break;
+            case LayerBackGround.Sky:
+                backGround = backGrounds.transform.GetChild(3).gameObject;
+                break;
+            default:
+                backGround = backGrounds.transform.GetChild(0).gameObject;
+                break;
+        }
+                return backGround;
     }
 }

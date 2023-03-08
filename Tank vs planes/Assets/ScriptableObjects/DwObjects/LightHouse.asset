@@ -14,10 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameElement: LightHouse
   backGround: {fileID: 0}
-  speed: -2
-  backGroundGameObjects: 1
   borderCheck: 17
   spawnChance: 100
   spawnCoordinates: {x: -1.115, y: 0.85}
   beforeNuclear: {fileID: 21300000, guid: ddbe4d906138e2540bb6e13bba6df80d, type: 3}
   afterNuclear: {fileID: 21300000, guid: 754bb41de3d82b54b946b47b38c8aa56, type: 3}
+  layerBackGround: 1
