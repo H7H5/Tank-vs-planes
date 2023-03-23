@@ -14,7 +14,8 @@ public class Bullet : MonoBehaviour
     {
         transform.Translate(Vector3.up * Time.deltaTime * movementSpeed);
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+
+    private void OnTriggerEnter(Collider collision)
     {
         if (collision.gameObject.CompareTag("border"))
         {
@@ -26,10 +27,10 @@ public class Bullet : MonoBehaviour
             for (int i = 0; i < count; i++)
             {
                 Instantiate(spark, gameObject.transform.position, gameObject.transform.rotation);
-            } 
+            }
             Destroy(gameObject);
         }
-        
+
     }
     public void SetDamage(int level)
     {
