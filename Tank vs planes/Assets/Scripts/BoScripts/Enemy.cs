@@ -32,11 +32,11 @@ public class Enemy : MonoBehaviour
 
     }
    
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter(Collider collision)
     {
         if (collision.gameObject.CompareTag("border"))
         {
-            EnemyPool.Instance.DeleteEnemy(gameObject);
+           // EnemyPool.Instance.DeleteEnemy(gameObject);
             //Destroy(gameObject);
         }
         else if (collision.gameObject.CompareTag("bullet"))
